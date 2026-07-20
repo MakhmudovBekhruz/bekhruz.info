@@ -83,9 +83,9 @@ export interface Dict {
 export const ui: Record<Locale, Dict> = {
   en: {
     meta: {
-      title: 'Bekhruz Makhmudov — CEO of norlas.com, Mobile Team Lead & Flutter Expert',
+      title: 'Bekhruz Makhmudov — Founder & Team Lead · Senior Flutter Developer, Tashkent',
       description:
-        'Bekhruz Makhmudov is the CEO of norlas.com and a Mobile Team Lead from Tashkent, Uzbekistan — a senior Flutter developer with 7+ years of experience building cross-platform mobile apps and Java (Spring Boot) backends.',
+        'Bekhruz Makhmudov is a founder and mobile team lead from Tashkent, Uzbekistan — a senior Flutter developer with 7+ years of experience building cross-platform mobile apps and Java (Spring Boot) backends.',
       projectsTitle: 'Projects — Bekhruz Makhmudov, Senior Flutter Developer',
       projectsDescription:
         'Mobile apps built by Bekhruz Makhmudov: banking, e-commerce, telemedicine, education and social apps built with Flutter, Firebase and Java backends.',
@@ -149,9 +149,9 @@ export const ui: Record<Locale, Dict> = {
   },
   ru: {
     meta: {
-      title: 'Бехруз Махмудов — CEO norlas.com, Mobile Team Lead и Flutter-эксперт',
+      title: 'Бехруз Махмудов — основатель и тимлид · Senior Flutter-разработчик, Ташкент',
       description:
-        'Бехруз Махмудов — CEO norlas.com и руководитель мобильной команды из Ташкента; senior Flutter-разработчик с опытом 7+ лет: кроссплатформенные мобильные приложения и бэкенды на Java (Spring Boot).',
+        'Бехруз Махмудов — основатель и руководитель мобильной команды из Ташкента; senior Flutter-разработчик с опытом 7+ лет: кроссплатформенные мобильные приложения и бэкенды на Java (Spring Boot).',
       projectsTitle: 'Проекты — Бехруз Махмудов, Senior Flutter-разработчик',
       projectsDescription:
         'Мобильные приложения Бехруза Махмудова: банкинг, e-commerce, телемедицина, образование и социальные приложения на Flutter, Firebase и Java.',
@@ -215,9 +215,9 @@ export const ui: Record<Locale, Dict> = {
   },
   uz: {
     meta: {
-      title: 'Behruz Mahmudov — norlas.com CEO, Mobile Team Lead va Flutter mutaxassisi',
+      title: 'Behruz Mahmudov — asoschi va jamoa rahbari · Senior Flutter dasturchi, Toshkent',
       description:
-        "Behruz Mahmudov — norlas.com CEO va Toshkentlik mobil jamoa rahbari: 7+ yillik tajribali senior Flutter dasturchi, krossplatforma mobil ilovalar va Java (Spring Boot) backendlar.",
+        "Behruz Mahmudov — asoschi va Toshkentlik mobil jamoa rahbari: 7+ yillik tajribali senior Flutter dasturchi, krossplatforma mobil ilovalar va Java (Spring Boot) backendlar.",
       projectsTitle: 'Loyihalar — Behruz Mahmudov, Senior Flutter dasturchi',
       projectsDescription:
         "Behruz Mahmudov yaratgan mobil ilovalar: banking, e-commerce, telemeditsina, ta'lim va ijtimoiy ilovalar — Flutter, Firebase va Java asosida.",

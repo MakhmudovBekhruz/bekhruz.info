@@ -17,6 +17,8 @@ export default defineConfig({
   },
   integrations: [
     sitemap({
+      // cv-print is the internal print template behind the generated CV PDF
+      filter: (page) => !page.includes('/cv-print/'),
       i18n: {
         defaultLocale: 'en',
         locales: { en: 'en', ru: 'ru', uz: 'uz' },
