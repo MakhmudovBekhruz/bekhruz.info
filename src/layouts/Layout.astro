@@ -47,6 +47,28 @@ const ogImageUrl = new URL(ogImage ?? '/og.png', site);
   <body class="min-h-dvh overflow-x-clip bg-night text-snow">
     <slot />
     <script>
+      // Visit beacon — fires at most once per browser session, notifies the
+      // owner via Telegram (server-side). No cookies, nothing stored client-side
+      // beyond a session flag.
+      try {
+        if (!sessionStorage.getItem('v')) {
+          sessionStorage.setItem('v', '1');
+          const send = () =>
+            navigator.sendBeacon?.(
+              '/api/visit',
+              new Blob(
+                [JSON.stringify({ path: location.pathname, referrer: document.referrer, lang: navigator.language })],
+                { type: 'application/json' }
+              )
+            );
+          if (document.visibilityState === 'visible') send();
+          else addEventListener('visibilitychange', send, { once: true });
+        }
+      } catch (e) {
+        /* private mode / storage disabled — skip silently */
+      }
+    </script>
+    <script>
       if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
         // Take ownership of reveal animations; until this class exists the CSS
         // keeps everything visible (no-JS / script-failure safety).
