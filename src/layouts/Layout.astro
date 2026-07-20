@@ -48,16 +48,25 @@ const ogImageUrl = new URL(ogImage ?? '/og.png', site);
     <slot />
     <script>
       // Visit beacon — fires at most once per browser session, notifies the
-      // owner via Telegram (server-side). No cookies, nothing stored client-side
-      // beyond a session flag.
+      // owner via Telegram (server-side). No cookies, no unique ID: just a
+      // per-tab session flag and a boolean "seen this browser before" flag.
       try {
         if (!sessionStorage.getItem('v')) {
           sessionStorage.setItem('v', '1');
+          const returning = localStorage.getItem('seen') === '1';
+          localStorage.setItem('seen', '1');
           const send = () =>
             navigator.sendBeacon?.(
               '/api/visit',
               new Blob(
-                [JSON.stringify({ path: location.pathname, referrer: document.referrer, lang: navigator.language })],
+                [
+                  JSON.stringify({
+                    path: location.pathname,
+                    referrer: document.referrer,
+                    lang: navigator.language,
+                    returning,
+                  }),
+                ],
                 { type: 'application/json' }
               )
             );
