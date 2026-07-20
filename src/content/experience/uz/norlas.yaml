@@ -1,0 +1,16 @@
+company: "Norlas"
+companyUrl: "https://norlas.com"
+logo: "../../../assets/companies/norlas.svg"
+title: "Asoschi va CEO"
+employmentType: "Full-time"
+location: "Toshkent"
+from: 2025-02-01
+to: null
+isCurrent: true
+responsibilities:
+  - "Norlas — o'z iste'mol va B2B mahsulotlarini yaratuvchi Toshkentdagi dasturiy studiyaga asos soldim."
+  - "Mahsulot strategiyasini belgilayman va mobil, veb hamda backend yo'nalishlarida ishlab chiqishga rahbarlik qilaman."
+  - "Mahsulotlar uchun to'liq javobgarman — arxitektura, relizlar, CI/CD va produkshendagi ekspluatatsiya."
+  - "Kichik jamoaga startap sur'atida mahsulot chiqarish imkonini beruvchi AI-tezlashtirilgan ish jarayonini yo'lga qo'ydim."
+order: 0
+translated: claude

@@ -20,21 +20,23 @@ const more = stack.length - shown.length;
 <article class="group h-full">
   <a
     href={href}
-    class="flex h-full flex-col overflow-hidden rounded-xl border border-night-line bg-night-raised transition-colors hover:border-accent-dim focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+    class="card-lift flex h-full flex-col overflow-hidden rounded-xl border border-night-line bg-night-raised hover:border-accent-dim focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
   >
     {
       image ? (
-        <Image
-          src={image}
-          alt=""
-          widths={[400, 640, 800]}
-          sizes="(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 92vw"
-          class="aspect-[16/10] w-full border-b border-night-line object-cover object-top"
-          loading={eager ? 'eager' : 'lazy'}
-        />
+        <div class="flex aspect-square w-full items-center justify-center border-b border-night-line bg-night p-6">
+          <Image
+            src={image}
+            alt=""
+            widths={[400, 640, 800]}
+            sizes="(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 92vw"
+            class="max-h-full max-w-full rounded-lg object-contain transition-transform duration-500 group-hover:scale-[1.03]"
+            loading={eager ? 'eager' : 'lazy'}
+          />
+        </div>
       ) : (
         <div
-          class="flex aspect-[16/10] w-full items-center justify-center border-b border-night-line bg-night"
+          class="flex aspect-square w-full items-center justify-center border-b border-night-line bg-night"
           aria-hidden="true"
         >
           <span class="font-display text-5xl font-semibold text-night-line select-none">{title.charAt(0)}</span>

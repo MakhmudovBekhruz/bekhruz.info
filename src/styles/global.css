@@ -11,10 +11,12 @@
   --color-mist: oklch(78% 0.012 255);
   --color-haze: oklch(62% 0.014 255);
 
-  /* Accent — Flutter-adjacent sky/cyan */
+  /* Accent — Flutter-adjacent sky/cyan, with a violet partner for gradients */
   --color-accent: oklch(78% 0.13 220);
   --color-accent-strong: oklch(86% 0.1 215);
   --color-accent-dim: oklch(45% 0.09 225);
+  --color-violet: oklch(70% 0.15 300);
+  --color-violet-dim: oklch(42% 0.1 300);
 
   --font-display: 'Space Grotesk Variable', ui-sans-serif, system-ui, sans-serif;
   --font-sans: 'Inter Variable', ui-sans-serif, system-ui, sans-serif;
@@ -42,6 +44,119 @@ body {
   background: var(--color-night);
   color: var(--color-snow);
   -webkit-font-smoothing: antialiased;
+}
+
+/* Aurora backdrop — two soft color fields drifting very slowly behind everything. */
+body::before {
+  content: '';
+  position: fixed;
+  inset: -20%;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(42% 38% at 82% 4%, oklch(45% 0.09 225 / 0.28), transparent 70%),
+    radial-gradient(36% 34% at 8% 28%, oklch(42% 0.1 300 / 0.16), transparent 70%),
+    radial-gradient(40% 36% at 70% 92%, oklch(45% 0.09 225 / 0.12), transparent 70%);
+  animation: aurora-drift 26s ease-in-out infinite alternate;
+}
+
+@keyframes aurora-drift {
+  from {
+    transform: translate3d(-2%, -1%, 0) scale(1);
+  }
+  to {
+    transform: translate3d(2%, 2%, 0) scale(1.06);
+  }
+}
+
+/* Animated gradient headline text */
+.gradient-text {
+  background: linear-gradient(
+    100deg,
+    var(--color-snow) 0%,
+    var(--color-accent-strong) 30%,
+    var(--color-violet) 55%,
+    var(--color-snow) 80%
+  );
+  background-size: 220% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gradient-pan 9s linear infinite;
+}
+
+@keyframes gradient-pan {
+  from {
+    background-position: 0% 50%;
+  }
+  to {
+    background-position: 220% 50%;
+  }
+}
+
+/* Animated underline for nav links */
+.link-underline {
+  position: relative;
+}
+
+.link-underline::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 100%;
+  bottom: -2px;
+  height: 1px;
+  background: linear-gradient(90deg, var(--color-accent), var(--color-violet));
+  transition: right 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.link-underline:hover::after,
+.link-underline:focus-visible::after {
+  right: 0;
+}
+
+/* Card lift on hover */
+.card-lift {
+  transition:
+    transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 0.35s,
+    box-shadow 0.35s;
+}
+
+.card-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px -16px oklch(45% 0.09 225 / 0.45);
+}
+
+/* Horizontal snap carousel with a slim themed scrollbar */
+.carousel {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-night-line) transparent;
+}
+
+.carousel::-webkit-scrollbar {
+  height: 6px;
+}
+
+.carousel::-webkit-scrollbar-thumb {
+  background: var(--color-night-line);
+  border-radius: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body::before {
+    animation: none;
+  }
+
+  .gradient-text {
+    animation: none;
+  }
+
+  .card-lift,
+  .card-lift:hover {
+    transition: none;
+    transform: none;
+  }
 }
 
 /* Reveal-on-scroll — progressive enhancement: content is visible by default

@@ -1,0 +1,16 @@
+company: "Norlas"
+companyUrl: "https://norlas.com"
+logo: "../../../assets/companies/norlas.svg"
+title: "Founder & CEO"
+employmentType: "Full-time"
+location: "Tashkent"
+from: 2025-02-01
+to: null
+isCurrent: true
+responsibilities:
+  - "Founded Norlas, a Tashkent-based software studio building its own consumer and B2B products."
+  - "Set product strategy and lead engineering across mobile, web, and backend."
+  - "Own products end to end — architecture, delivery, CI/CD, and operations in production."
+  - "Built an AI-accelerated development workflow that lets a small team ship at startup speed."
+order: 0
+translated: claude
