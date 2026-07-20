@@ -1,0 +1,519 @@
+{
+  "documents": [
+    {
+      "name": "projects/persfolio-tob49/databases/(default)/documents/experience/9bDH1BOdNE2hBb24d9nf",
+      "fields": {
+        "companyUrl": {
+          "stringValue": "https://etc.uz"
+        },
+        "isCurrent": {
+          "booleanValue": false
+        },
+        "responsibilities": {
+          "arrayValue": {
+            "values": [
+              {
+                "mapValue": {
+                  "fields": {
+                    "en": {
+                      "stringValue": "At East Telecom, I worked as a Senior Flutter Developer—architecting and building the Neva e-commerce app (product catalog, shopping cart, secure payments, order tracking, push notifications) and a comprehensive HRMS (employee directory, attendance & leave management, reporting), all with modular, testable Flutter code and integrated backend services.\n"
+                    },
+                    "uz": {
+                      "stringValue": "At East Telecom, I worked as a Senior Flutter Developer—architecting and building the Neva e-commerce app (product catalog, shopping cart, secure payments, order tracking, push notifications) and a comprehensive HRMS (employee directory, attendance & leave management, reporting), all with modular, testable Flutter code and integrated backend services.\n"
+                    },
+                    "ru": {
+                      "stringValue": "В компании East Telecom я работал Flutter-разработчиком — проектировал и создавал мобильное приложение Neva для электронной коммерции (каталог товаров, корзина, безопасные платежи, отслеживание заказов, push-уведомления) и комплексную HRMS (справочник сотрудников, учёт рабочего времени и отпусков, отчётность), используя модульный, тестируемый код на Flutter и интегрированные бэкенд-сервисы.\n"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "title": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": " Senior Flutter Developer"
+              },
+              "ru": {
+                "stringValue": "Senior Flutter-разработчик"
+              },
+              "uz": {
+                "stringValue": " Senior Flutter Developer"
+              }
+            }
+          }
+        },
+        "employmentType": {
+          "mapValue": {
+            "fields": {
+              "ru": {
+                "stringValue": "Part-time"
+              },
+              "uz": {
+                "stringValue": "Part-time"
+              },
+              "en": {
+                "stringValue": "Part-time"
+              }
+            }
+          }
+        },
+        "from": {
+          "stringValue": "2021-11-18T00:00:00.000Z"
+        },
+        "companyLogoUrl": {
+          "stringValue": "https://firebasestorage.googleapis.com/v0/b/persfolio-tob49.firebasestorage.app/o/experience%2Flogos%2F87b4143d-e290-47ce-a785-19d7d7e7b8df?alt=media&token=a510cfaf-1835-4d05-b369-ff87b7ade460"
+        },
+        "company": {
+          "mapValue": {
+            "fields": {
+              "uz": {
+                "stringValue": "East Telecom"
+              },
+              "ru": {
+                "stringValue": "East Telecom"
+              },
+              "en": {
+                "stringValue": "East Telecom"
+              }
+            }
+          }
+        },
+        "to": {
+          "stringValue": "2025-09-01T00:00:00.000Z"
+        },
+        "location": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "Remote, Tashkent"
+              },
+              "uz": {
+                "stringValue": "Remote, Tashkent"
+              },
+              "ru": {
+                "stringValue": "Remote, Tashkent"
+              }
+            }
+          }
+        }
+      },
+      "createTime": "2025-06-29T13:31:46.728458Z",
+      "updateTime": "2025-12-07T20:10:39.804238Z"
+    },
+    {
+      "name": "projects/persfolio-tob49/databases/(default)/documents/experience/Hz6ZPDJddlYB6cszVWZA",
+      "fields": {
+        "location": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "Remote, Tashkent"
+              },
+              "ru": {
+                "stringValue": "Remote, Tashkent"
+              },
+              "uz": {
+                "stringValue": "Remote, Tashkent"
+              }
+            }
+          }
+        },
+        "to": {
+          "stringValue": "2025-01-20T00:00:00.000Z"
+        },
+        "company": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "Jafton.com"
+              },
+              "uz": {
+                "stringValue": "Jafton.com"
+              },
+              "ru": {
+                "stringValue": "Jafton.com"
+              }
+            }
+          }
+        },
+        "from": {
+          "stringValue": "2022-04-18T00:00:00.000Z"
+        },
+        "companyLogoUrl": {
+          "stringValue": "https://firebasestorage.googleapis.com/v0/b/persfolio-tob49.firebasestorage.app/o/experience%2Flogos%2F4e82255a-b7f7-4757-84a2-7139ff6de6ee?alt=media&token=fd581a35-f48a-4915-868a-a00b98b4656a"
+        },
+        "employmentType": {
+          "mapValue": {
+            "fields": {
+              "uz": {
+                "stringValue": "Full-time"
+              },
+              "ru": {
+                "stringValue": "Full-time"
+              },
+              "en": {
+                "stringValue": "Full-time"
+              }
+            }
+          }
+        },
+        "title": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "Senior Flutter Developer"
+              },
+              "uz": {
+                "stringValue": "Senior Flutter Developer"
+              },
+              "ru": {
+                "stringValue": "Senior Flutter-разработчик"
+              }
+            }
+          }
+        },
+        "responsibilities": {
+          "arrayValue": {
+            "values": [
+              {
+                "mapValue": {
+                  "fields": {
+                    "en": {
+                      "stringValue": "At Jafton.com, an outsourcing firm specializing in mobile applications, I served as a Senior Flutter Developer—architecting scalable, maintainable cross-platform apps for diverse clients; designing and implementing reusable UI components; integrating RESTful APIs and third-party SDKs; mentoring junior developers; and enforcing code quality through unit/widget tests and thorough code reviews."
+                    },
+                    "uz": {
+                      "stringValue": "At Jafton.com, an outsourcing firm specializing in mobile applications, I served as a Senior Flutter Developer—architecting scalable, maintainable cross-platform apps for diverse clients; designing and implementing reusable UI components; integrating RESTful APIs and third-party SDKs; mentoring junior developers; and enforcing code quality through unit/widget tests and thorough code reviews."
+                    },
+                    "ru": {
+                      "stringValue": "В компании Jafton.com, аутсорсинговой фирме, специализирующейся на мобильных приложениях, я работал старшим Flutter-разработчиком — проектировал масштабируемые и сопровождаемые кроссплатформенные приложения для различных клиентов; разрабатывал и внедрял повторно используемые UI-компоненты; интегрировал RESTful API и сторонние SDK; наставлял младших разработчиков; а также обеспечивал качество кода с помощью модульных и виджет-тестов и тщательных код-ревью.\n"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "isCurrent": {
+          "booleanValue": false
+        },
+        "companyUrl": {
+          "stringValue": "https://jafton.com"
+        }
+      },
+      "createTime": "2025-06-29T13:37:16.553127Z",
+      "updateTime": "2025-06-29T15:56:11.415991Z"
+    },
+    {
+      "name": "projects/persfolio-tob49/databases/(default)/documents/experience/fCryOSwFKbCV7sejYYBV",
+      "fields": {
+        "employmentType": {
+          "mapValue": {
+            "fields": {
+              "uz": {
+                "stringValue": "Part-time"
+              },
+              "ru": {
+                "stringValue": "Part-time"
+              },
+              "en": {
+                "stringValue": "Part-time"
+              }
+            }
+          }
+        },
+        "title": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "Flutter Developer"
+              },
+              "uz": {
+                "stringValue": "Flutter Dasturchi"
+              },
+              "ru": {
+                "stringValue": "Flutter Разработчик"
+              }
+            }
+          }
+        },
+        "responsibilities": {
+          "arrayValue": {
+            "values": [
+              {
+                "mapValue": {
+                  "fields": {
+                    "en": {
+                      "stringValue": "At Multicard, I developed core features for a secure Flutter-based mobile banking app—implementing biometric onboarding, account dashboards, transaction history views, and funds-transfer screens—by integrating reusable, testable UI widgets with REST APIs and ensuring quality through unit and widget tests."
+                    },
+                    "ru": {
+                      "stringValue": "В компании Multicard я разрабатывал основные функции для безопасного мобильного банковского приложения на Flutter — внедрял биометрическую регистрацию, панели управления счётом, просмотр истории транзакций и экраны перевода средств, интегрируя повторно используемые тестируемые UI-виджеты с REST API и обеспечивая качество посредством модульных и виджет-тестов."
+                    },
+                    "uz": {
+                      "stringValue": "At Multicard, I developed core features for a secure Flutter-based mobile banking app—implementing biometric onboarding, account dashboards, transaction history views, and funds-transfer screens—by integrating reusable, testable UI widgets with REST APIs and ensuring quality through unit and widget tests."
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "isCurrent": {
+          "booleanValue": false
+        },
+        "companyUrl": {
+          "stringValue": "https://multibank.uz"
+        },
+        "location": {
+          "mapValue": {
+            "fields": {
+              "ru": {
+                "stringValue": "Remote, Tashkent"
+              },
+              "uz": {
+                "stringValue": "Remote, Tashkent"
+              },
+              "en": {
+                "stringValue": "Remote, Tashkent"
+              }
+            }
+          }
+        },
+        "to": {
+          "stringValue": "2021-07-31T00:00:00.000Z"
+        },
+        "company": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "Multicard(multibank.uz)"
+              },
+              "ru": {
+                "stringValue": "Multicard(multibank.uz)"
+              },
+              "uz": {
+                "stringValue": "Multicard(multibank.uz)"
+              }
+            }
+          }
+        },
+        "companyLogoUrl": {
+          "stringValue": "https://firebasestorage.googleapis.com/v0/b/persfolio-tob49.firebasestorage.app/o/experience%2Flogos%2F402fad7b-4147-4395-886f-8bb91d978f45?alt=media&token=5d82da16-791a-4a3c-9c1f-2f61377074ee"
+        },
+        "from": {
+          "stringValue": "2020-05-05T00:00:00.000Z"
+        }
+      },
+      "createTime": "2025-06-29T13:18:56.798146Z",
+      "updateTime": "2025-06-29T16:18:39.998626Z"
+    },
+    {
+      "name": "projects/persfolio-tob49/databases/(default)/documents/experience/i6R6T2Yi4hwk2bBr1MdT",
+      "fields": {
+        "location": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "Office, Tashkent"
+              },
+              "ru": {
+                "stringValue": "Office, Tashkent"
+              },
+              "uz": {
+                "stringValue": "Office, Tashkent"
+              }
+            }
+          }
+        },
+        "to": {
+          "stringValue": "2022-04-18T00:00:00.000Z"
+        },
+        "from": {
+          "stringValue": "2019-08-30T00:00:00.000Z"
+        },
+        "companyLogoUrl": {
+          "stringValue": "https://firebasestorage.googleapis.com/v0/b/persfolio-tob49.firebasestorage.app/o/experience%2Flogos%2F3ae12634-2a16-4505-8bd8-7a5927bb32b6?alt=media&token=a9c01a8c-1e99-4ae0-b28b-45bc498a3994"
+        },
+        "company": {
+          "mapValue": {
+            "fields": {
+              "ru": {
+                "stringValue": "zip24.com(shipox.com)"
+              },
+              "uz": {
+                "stringValue": "zip24.com(shipox.com)"
+              },
+              "en": {
+                "stringValue": "zip24.com(shipox.com)"
+              }
+            }
+          }
+        },
+        "title": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "Java/Flutter Developer"
+              },
+              "uz": {
+                "stringValue": "Java/Flutter Developer"
+              },
+              "ru": {
+                "stringValue": "Java/Flutter Developer"
+              }
+            }
+          }
+        },
+        "responsibilities": {
+          "arrayValue": {
+            "values": [
+              {
+                "mapValue": {
+                  "fields": {
+                    "uz": {
+                      "stringValue": "At Shipox, a delivery management platform, I served as both backend and Flutter developer—designing RESTful APIs for order processing, driver assignment, and delivery tracking; building Flutter interfaces for dispatchers and drivers; optimizing order-creation workflows; integrating Solr for advanced search; and authoring PostgreSQL scripts to transform and migrate data, all reinforced by comprehensive unit and widget tests."
+                    },
+                    "ru": {
+                      "stringValue": "В Shipox, платформе управления доставкой, я работал как бэкенд- и Flutter-разработчик — проектировал RESTful API для обработки заказов, назначения водителей и отслеживания доставки; создавал интерфейсы на Flutter для диспетчеров и водителей; оптимизировал процессы создания заказов; интегрировал Solr для расширенного поиска; разрабатывал скрипты на PostgreSQL для преобразования и миграции данных; всё это сопровождалось комплексными модульными и виджет-тестами.\n"
+                    },
+                    "en": {
+                      "stringValue": "At Shipox, a delivery management platform, I served as both backend and Flutter developer—designing RESTful APIs for order processing, driver assignment, and delivery tracking; building Flutter interfaces for dispatchers and drivers; optimizing order-creation workflows; integrating Solr for advanced search; and authoring PostgreSQL scripts to transform and migrate data, all reinforced by comprehensive unit and widget tests."
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "employmentType": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "Full-time"
+              },
+              "ru": {
+                "stringValue": "Full-time"
+              },
+              "uz": {
+                "stringValue": "Full-time"
+              }
+            }
+          }
+        },
+        "isCurrent": {
+          "booleanValue": false
+        },
+        "companyUrl": {
+          "stringValue": "https://shipox.com"
+        }
+      },
+      "createTime": "2025-06-29T13:24:00.924065Z",
+      "updateTime": "2025-06-29T16:18:59.590036Z"
+    },
+    {
+      "name": "projects/persfolio-tob49/databases/(default)/documents/experience/sITcXa6vPxGE90xXYnAT",
+      "fields": {
+        "employmentType": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "Full-time"
+              },
+              "uz": {
+                "stringValue": "Full-time"
+              },
+              "ru": {
+                "stringValue": "Full-time"
+              }
+            }
+          }
+        },
+        "responsibilities": {
+          "arrayValue": {
+            "values": [
+              {
+                "mapValue": {
+                  "fields": {
+                    "en": {
+                      "stringValue": "At Jafton.com, I serve as Mobile Team Lead—overseeing a team of Flutter developers to deliver high-quality cross-platform applications; defining mobile architecture and best practices; coordinating with product owners, designers, and QA to align on requirements and timelines; mentoring and upskilling team members; and driving CI/CD adoption, code reviews, and performance optimizations to ensure timely, maintainable, and scalable app releases."
+                    },
+                    "ru": {
+                      "stringValue": "В компании Jafton.com я работаю руководителем мобильной команды — курирую группу Flutter-разработчиков для выпуска качественных кроссплатформенных приложений; определяю мобильную архитектуру и лучшие практики; взаимодействую с продакт-оунерами, дизайнерами и QA для согласования требований и сроков; наставляю и повышаю квалификацию участников команды; внедряю CI/CD, провожу code review и оптимизирую производительность, чтобы обеспечить своевременные, поддерживаемые и масштабируемые релизы.\n"
+                    },
+                    "uz": {
+                      "stringValue": "At Jafton.com, I serve as Mobile Team Lead—overseeing a team of Flutter developers to deliver high-quality cross-platform applications; defining mobile architecture and best practices; coordinating with product owners, designers, and QA to align on requirements and timelines; mentoring and upskilling team members; and driving CI/CD adoption, code reviews, and performance optimizations to ensure timely, maintainable, and scalable app releases."
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "title": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "Mobile Team Lead"
+              },
+              "ru": {
+                "stringValue": "Mobile Team Lead"
+              },
+              "uz": {
+                "stringValue": "Mobile Team Lead"
+              }
+            }
+          }
+        },
+        "companyUrl": {
+          "stringValue": "https://jafton.com"
+        },
+        "isCurrent": {
+          "booleanValue": true
+        },
+        "to": {
+          "nullValue": null
+        },
+        "location": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "Remote, Tashkent"
+              },
+              "uz": {
+                "stringValue": "Remote, Tashkent"
+              },
+              "ru": {
+                "stringValue": "Remote, Tashkent"
+              }
+            }
+          }
+        },
+        "company": {
+          "mapValue": {
+            "fields": {
+              "uz": {
+                "stringValue": "Jafton.com"
+              },
+              "ru": {
+                "stringValue": "Jafton.com"
+              },
+              "en": {
+                "stringValue": "Jafton.com"
+              }
+            }
+          }
+        },
+        "companyLogoUrl": {
+          "stringValue": "https://firebasestorage.googleapis.com/v0/b/persfolio-tob49.firebasestorage.app/o/experience%2Flogos%2F67df5a99-da9b-456e-9e55-f5fe5e41118e?alt=media&token=e2bba792-831d-4218-9aa6-ee4b5d734dd5"
+        },
+        "from": {
+          "stringValue": "2025-01-20T00:00:00.000Z"
+        }
+      },
+      "createTime": "2025-06-29T13:38:58.603672Z",
+      "updateTime": "2025-06-29T15:56:02.166939Z"
+    }
+  ]
+}

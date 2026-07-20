@@ -1,0 +1,47 @@
+---
+import type { Dict } from '../i18n/ui';
+import Icon from './Icon.astro';
+
+interface Props {
+  t: Dict;
+  profile: {
+    name: string;
+    email: string;
+    socials: { github: string; linkedin: string; telegram: string };
+  };
+}
+const { t, profile } = Astro.props;
+const year = new Date().getFullYear();
+
+const socials = [
+  { href: profile.socials.github, label: 'GitHub', icon: 'github' },
+  { href: profile.socials.linkedin, label: 'LinkedIn', icon: 'linkedin' },
+  { href: profile.socials.telegram, label: 'Telegram', icon: 'telegram' },
+  { href: `mailto:${profile.email}`, label: profile.email, icon: 'mail' },
+] as const;
+---
+
+<footer class="border-t border-night-line">
+  <div
+    class="mx-auto flex w-full max-w-5xl flex-wrap items-center justify-between gap-x-8 gap-y-4 px-5 py-10 sm:px-8"
+  >
+    <p class="text-sm text-haze">© {year} {profile.name}. {t.footer.rights}</p>
+    <ul class="flex items-center gap-1" role="list">
+      {
+        socials.map((s) => (
+          <li>
+            <a
+              href={s.href}
+              aria-label={s.label}
+              target={s.icon === 'mail' ? undefined : '_blank'}
+              rel={s.icon === 'mail' ? undefined : 'noopener noreferrer'}
+              class="flex h-11 w-11 items-center justify-center rounded-lg text-haze transition-colors hover:bg-night-raised hover:text-snow focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-accent"
+            >
+              <Icon name={s.icon} class="h-4.5 w-4.5" />
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</footer>

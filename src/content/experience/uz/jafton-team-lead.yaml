@@ -1,0 +1,17 @@
+company: "Jafton.com"
+companyUrl: "https://jafton.com"
+logo: "../../../assets/companies/jafton.webp"
+title: "Mobil jamoa rahbari"
+employmentType: "To'liq stavka"
+location: "Masofaviy, Toshkent"
+from: 2025-01-20
+to: null
+isCurrent: true
+responsibilities:
+  - "Sifatli krossplatforma ilovalarini yetkazib berish uchun Flutter dasturchilar jamoasiga rahbarlik qilaman."
+  - "Mobil arxitektura va eng yaxshi amaliyotlarni belgilayman."
+  - "Talablar va muddatlarni kelishish uchun product owner'lar, dizaynerlar va QA bilan hamkorlik qilaman."
+  - "Jamoa a'zolariga mentorlik qilib, malakalarini oshiraman."
+  - "O'z vaqtida chiqadigan, barqaror va kengaytiriladigan relizlarni ta'minlash uchun CI/CD joriy etaman, code review o'tkazaman va unumdorlikni optimallashtiraman."
+order: 1
+translated: claude

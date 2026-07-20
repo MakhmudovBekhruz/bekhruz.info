@@ -1,0 +1,54 @@
+---
+import { Image } from 'astro:assets';
+import type { CollectionEntry } from 'astro:content';
+import type { Dict } from '../i18n/ui';
+import SectionHeading from './SectionHeading.astro';
+import Monogram from './Monogram.astro';
+import { resolveAsset } from './images';
+
+interface Props {
+  t: Dict;
+  entries: CollectionEntry<'testimonials'>[];
+}
+const { t, entries } = Astro.props;
+---
+
+<section id="testimonials" class="scroll-mt-20 border-t border-night-line py-14 sm:py-20">
+  <div class="reveal">
+    <SectionHeading title={t.sections.testimonials} sub={t.sections.testimonialsSub} />
+    <div class="mt-10 grid gap-x-10 gap-y-10 sm:grid-cols-2">
+      {
+        entries.map((entry) => {
+          const e = entry.data;
+          const photo = resolveAsset(e.image);
+          return (
+            <figure class="flex h-full flex-col border-t border-night-line pt-6">
+              <blockquote class="max-w-[58ch] leading-relaxed text-mist">“{e.quote}”</blockquote>
+              <figcaption class="mt-6 flex items-center gap-3 pt-0">
+                {photo ? (
+                  <Image
+                    src={photo}
+                    alt=""
+                    width={40}
+                    height={40}
+                    densities={[1, 2]}
+                    class="h-10 w-10 rounded-full border border-night-line object-cover"
+                    loading="lazy"
+                  />
+                ) : (
+                  <Monogram text={e.name} class="h-10 w-10 rounded-full text-sm" />
+                )}
+                <div>
+                  <p class="text-sm font-medium text-snow">{e.name}</p>
+                  <p class="mt-0.5 text-xs text-haze">
+                    {e.role} · {e.company}
+                  </p>
+                </div>
+              </figcaption>
+            </figure>
+          );
+        })
+      }
+    </div>
+  </div>
+</section>

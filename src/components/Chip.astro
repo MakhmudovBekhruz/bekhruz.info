@@ -1,0 +1,13 @@
+---
+interface Props {
+  size?: 'sm' | 'md';
+}
+const { size = 'md' } = Astro.props;
+---
+
+<span
+  class:list={[
+    'inline-flex items-center rounded-full border border-night-line bg-night-raised text-mist',
+    size === 'md' ? 'px-3.5 py-1.5 text-[13px]' : 'px-2.5 py-0.5 text-xs',
+  ]}><slot /></span
+>

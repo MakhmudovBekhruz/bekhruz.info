@@ -1,0 +1,16 @@
+company: "Multicard(multibank.uz)"
+companyUrl: "https://multibank.uz"
+logo: "../../../assets/companies/multicard.png"
+title: "Flutter Developer"
+employmentType: "Part-time"
+location: "Remote, Tashkent"
+from: 2020-05-05
+to: 2021-07-31
+isCurrent: false
+responsibilities:
+  - "Developed core features for a secure Flutter-based mobile banking app."
+  - "Implemented biometric onboarding, account dashboards, transaction history views, and funds-transfer screens."
+  - "Integrated reusable, testable UI widgets with REST APIs."
+  - "Ensured quality through unit and widget tests."
+order: 4
+translated: original

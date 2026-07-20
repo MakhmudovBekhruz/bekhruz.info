@@ -1,0 +1,17 @@
+company: "zip24.com(shipox.com)"
+companyUrl: "https://shipox.com"
+logo: "../../../assets/companies/shipox.png"
+title: "Java/Flutter Developer"
+employmentType: "Full-time"
+location: "Office, Tashkent"
+from: 2019-08-30
+to: 2022-04-18
+isCurrent: false
+responsibilities:
+  - "Designing RESTful APIs for order processing, driver assignment, and delivery tracking."
+  - "Building Flutter interfaces for dispatchers and drivers."
+  - "Optimizing order-creation workflows."
+  - "Integrating Solr for advanced search."
+  - "Authoring PostgreSQL scripts to transform and migrate data, all reinforced by comprehensive unit and widget tests."
+order: 5
+translated: original

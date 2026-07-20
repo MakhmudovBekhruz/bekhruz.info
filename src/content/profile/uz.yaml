@@ -1,0 +1,12 @@
+name: "Bekhruz Makhmudov"
+role: "Senior Flutter Developer"
+location: "Toshkent, O'zbekiston"
+about: "Kengaytiriladigan krossplatforma mobil va server ilovalarini loyihalash hamda yetkazib berishda 7+ yillik tajribaga ega, natijaga yo'naltirilgan va ishiga ishtiyoqli Flutter va Java backend dasturchisiman. Flutter, Firebase, Supabase va RevenueCat integratsiyalari bo'yicha ekspertman; Java (Spring Boot va PostgreSQL) backend hamda Swift'da iOS dasturlash bo'yicha amaliy tajribam bor. Hozirda autsorsing kompaniyasida dasturchilar jamoasiga rahbarlik qilaman — ish jarayonlarini optimallashtiraman, yetkazib berish muddatlarini tezlashtiraman va samaradorlikni oshirish uchun AI vositalaridan foydalanaman. Foydalanuvchi tajribasini yuksaltiradigan yuqori unumdor yechimlar yaratishga intilaman."
+email: "makhmudovbekhruzish@gmail.com"
+phone: "+998 99 702 56 70"
+cvUrl: "/cv/bekhruz-makhmudov-cv.pdf"
+socials:
+  github: "https://github.com/MakhmudovBekhruz"
+  linkedin: "https://www.linkedin.com/in/bekhruz-makhmudov-99a7bb1b0/"
+  telegram: "https://t.me/+998997025670"
+translated: claude

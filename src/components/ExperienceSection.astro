@@ -1,0 +1,88 @@
+---
+import { Image } from 'astro:assets';
+import type { CollectionEntry } from 'astro:content';
+import type { Locale, Dict } from '../i18n/ui';
+import SectionHeading from './SectionHeading.astro';
+import Monogram from './Monogram.astro';
+import { resolveAsset } from './images';
+
+interface Props {
+  locale: Locale;
+  t: Dict;
+  entries: CollectionEntry<'experience'>[];
+}
+const { locale, t, entries } = Astro.props;
+
+const intlLocale = { en: 'en-US', ru: 'ru-RU', uz: 'uz-Latn-UZ' }[locale];
+const fmt = new Intl.DateTimeFormat(intlLocale, { month: 'short', year: 'numeric' });
+
+function range(from: Date, to: Date | null | undefined, isCurrent: boolean): string {
+  const end = isCurrent || !to ? t.experience.present : fmt.format(to);
+  return `${fmt.format(from)} – ${end}`;
+}
+---
+
+<section id="experience" class="scroll-mt-20 border-t border-night-line py-14 sm:py-20">
+  <div class="reveal">
+    <SectionHeading title={t.sections.experience} sub={t.sections.experienceSub} />
+
+    <div class="relative mt-10">
+      <div class="absolute top-2 bottom-2 left-[23px] w-px bg-night-line" aria-hidden="true"></div>
+      <ol class="space-y-12" role="list">
+        {
+          entries.map((entry) => {
+            const e = entry.data;
+            const logo = resolveAsset(e.logo);
+            const current = e.isCurrent || !e.to;
+            return (
+              <li class="grid grid-cols-[3rem_minmax(0,1fr)] gap-x-4 sm:gap-x-6">
+                <div class="relative z-10">
+                  {logo ? (
+                    <Image
+                      src={logo}
+                      alt=""
+                      width={48}
+                      height={48}
+                      densities={[1, 2]}
+                      class="h-12 w-12 rounded-lg border border-night-line bg-night-raised object-contain p-1"
+                      loading="lazy"
+                    />
+                  ) : (
+                    <Monogram text={e.company} />
+                  )}
+                </div>
+                <div>
+                  <h3 class="font-display text-lg font-medium tracking-tight text-snow">{e.title}</h3>
+                  <p class="mt-1 text-sm text-mist">
+                    {e.companyUrl ? (
+                      <a
+                        href={e.companyUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="rounded font-medium text-snow underline decoration-night-line underline-offset-4 transition-colors hover:text-accent-strong hover:decoration-accent-dim focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+                      >
+                        {e.company}
+                      </a>
+                    ) : (
+                      <span class="font-medium text-snow">{e.company}</span>
+                    )}
+                    <span class="text-haze"> · {e.employmentType} · {e.location}</span>
+                  </p>
+                  <p class="mt-1.5 flex items-center gap-2 text-sm text-haze">
+                    {current && <span class="h-1.5 w-1.5 rounded-full bg-accent" aria-hidden="true" />}
+                    {range(e.from, e.to, e.isCurrent)}
+                  </p>
+                  <ul class="mt-4 max-w-[68ch] list-disc space-y-1.5 ps-5 text-[15px] leading-relaxed text-mist marker:text-haze">
+                    {e.responsibilities.map((r) => (
+                      <li>{r}</li>
+                    ))}
+                  </ul>
+                </div>
+              </li>
+            );
+          })
+        }
+      </ol>
+    </div>
+  </div>
+</section>

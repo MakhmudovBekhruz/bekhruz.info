@@ -1,0 +1,47 @@
+{
+  "documents": [
+    {
+      "name": "projects/persfolio-tob49/databases/(default)/documents/education/Cxophgz8YuJnnJmKnlRT",
+      "fields": {
+        "institution": {
+          "mapValue": {
+            "fields": {
+              "ru": {
+                "stringValue": "Ташкентский университет информационных технологий"
+              },
+              "uz": {
+                "stringValue": "Toshkent Axborot Texnologiyalari Universiteti"
+              },
+              "en": {
+                "stringValue": "Tashkent University of Information Technologies"
+              }
+            }
+          }
+        },
+        "from": {
+          "stringValue": "2018-09-03T00:00:00.000Z"
+        },
+        "to": {
+          "stringValue": "2022-06-20T00:00:00.000Z"
+        },
+        "degree": {
+          "mapValue": {
+            "fields": {
+              "uz": {
+                "stringValue": "Bakalavr"
+              },
+              "ru": {
+                "stringValue": "Бакалавр"
+              },
+              "en": {
+                "stringValue": "Bachelor"
+              }
+            }
+          }
+        }
+      },
+      "createTime": "2025-06-29T14:20:34.332783Z",
+      "updateTime": "2025-06-29T14:20:34.332783Z"
+    }
+  ]
+}

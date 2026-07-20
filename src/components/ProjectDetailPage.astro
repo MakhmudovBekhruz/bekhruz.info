@@ -1,0 +1,148 @@
+---
+import { Image } from 'astro:assets';
+import { render } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import { ui, localizePath, type Locale } from '../i18n/ui';
+import { getByLocale, getProfile, slugOf } from '../lib/collections';
+import { projectJsonLd, breadcrumbJsonLd } from '../lib/seo';
+import Nav from './Nav.astro';
+import Icon from './Icon.astro';
+import Chip from './Chip.astro';
+import LinkButton from './LinkButton.astro';
+import ProjectCard from './ProjectCard.astro';
+import Footer from './Footer.astro';
+
+interface Props {
+  locale: Locale;
+  entry: CollectionEntry<'projects'>;
+}
+const { locale, entry } = Astro.props;
+const t = ui[locale];
+const { title, tagline, stack, links, image } = entry.data;
+const slug = slugOf(entry.id);
+const path = `/projects/${slug}/`;
+
+const [profile, all] = await Promise.all([getProfile(locale), getByLocale('projects', locale)]);
+const { Content } = await render(entry);
+
+/* Three "more projects", starting after the current one so each page differs. */
+const idx = all.findIndex((p) => slugOf(p.id) === slug);
+const others = [...all.slice(idx + 1), ...all.slice(0, Math.max(idx, 0))].filter((p) => slugOf(p.id) !== slug);
+const morePicks = others.slice(0, 3);
+
+const storeLinks = [
+  { href: links.appStore, label: t.projects.appStore, icon: 'apple' },
+  { href: links.playStore, label: t.projects.playStore, icon: 'google-play' },
+  { href: links.live, label: t.projects.live, icon: 'globe' },
+  { href: links.github, label: t.projects.github, icon: 'github' },
+] as const;
+const presentLinks = storeLinks.filter((l): l is (typeof storeLinks)[number] & { href: string } => Boolean(l.href));
+
+const SITE = 'https://bekhruz.info';
+const canonical = `${SITE}${localizePath(locale, path)}`;
+const description = t.meta.projectDescription(title);
+
+const jsonLd = [
+  projectJsonLd({
+    title,
+    description,
+    url: canonical,
+    image: image ? new URL(image.src, SITE).toString() : undefined,
+    appStore: links.appStore ?? null,
+    playStore: links.playStore ?? null,
+  }),
+  breadcrumbJsonLd([
+    { name: profile.name, url: `${SITE}${localizePath(locale, '/')}` },
+    { name: t.nav.projects, url: `${SITE}${localizePath(locale, '/projects/')}` },
+    { name: title, url: canonical },
+  ]),
+];
+
+const bodyCls =
+  'mt-12 max-w-[70ch] leading-relaxed text-mist [&>*+*]:mt-5 ' +
+  '[&_h2]:mt-10 [&_h2]:font-display [&_h2]:text-xl [&_h2]:font-semibold [&_h2]:tracking-tight [&_h2]:text-snow ' +
+  '[&_h3]:mt-8 [&_h3]:font-display [&_h3]:text-lg [&_h3]:font-medium [&_h3]:text-snow ' +
+  '[&_strong]:font-medium [&_strong]:text-snow ' +
+  '[&_a]:text-accent [&_a]:underline [&_a]:underline-offset-4 hover:[&_a]:text-accent-strong ' +
+  '[&_ul]:list-disc [&_ul]:ps-5 [&_ol]:list-decimal [&_ol]:ps-5 [&_li]:mt-2 [&_li]:marker:text-haze ' +
+  '[&_blockquote]:border-s [&_blockquote]:border-night-line [&_blockquote]:ps-4 [&_blockquote]:text-haze ' +
+  '[&_code]:rounded [&_code]:bg-night-raised [&_code]:px-1.5 [&_code]:py-0.5 [&_code]:text-[0.9em] [&_code]:text-snow';
+---
+
+<Layout
+  locale={locale}
+  title={t.meta.projectTitle(title)}
+  description={description}
+  path={path}
+  jsonLd={jsonLd}
+>
+  <Nav locale={locale} path={path} />
+  <main id="main" class="mx-auto w-full max-w-5xl px-5 sm:px-8">
+    <article class="py-10 sm:py-14 animate-rise motion-reduce:animate-none">
+      <a
+        href={localizePath(locale, '/projects/')}
+        class="inline-flex min-h-11 items-center gap-2 rounded text-sm text-haze transition-colors hover:text-accent-strong focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+      >
+        <Icon name="arrow-left" class="h-4 w-4" />
+        {t.projects.backToProjects}
+      </a>
+
+      <header class="mt-6 max-w-3xl">
+        <h1 class="font-display text-3xl font-semibold tracking-tight text-snow sm:text-4xl">{title}</h1>
+        <p class="mt-3 text-lg leading-relaxed text-mist">{tagline}</p>
+
+        <div class="mt-6 flex flex-wrap gap-2">
+          {stack.map((s) => <Chip size="sm">{s}</Chip>)}
+        </div>
+
+        {
+          presentLinks.length > 0 && (
+            <div class="mt-8 flex flex-wrap gap-3">
+              {presentLinks.map((link, i) => (
+                <LinkButton href={link.href} variant={i === 0 ? 'primary' : 'secondary'} external>
+                  <Icon name={link.icon} class="h-4 w-4" />
+                  {link.label}
+                </LinkButton>
+              ))}
+            </div>
+          )
+        }
+      </header>
+
+      {
+        image && (
+          <Image
+            src={image}
+            alt={title}
+            widths={[640, 960, 1280]}
+            sizes="(min-width: 1024px) 896px, 100vw"
+            class="mt-12 w-full rounded-xl border border-night-line"
+            loading="eager"
+            fetchpriority="high"
+          />
+        )
+      }
+
+      <div class={bodyCls}>
+        <Content />
+      </div>
+    </article>
+
+    {
+      morePicks.length > 0 && (
+        <section class="border-t border-night-line py-12 sm:py-14" aria-labelledby="more-projects">
+          <h2 id="more-projects" class="font-display text-xl font-semibold tracking-tight text-snow sm:text-2xl">
+            {t.projects.otherProjects}
+          </h2>
+          <div class="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {morePicks.map((p) => (
+              <ProjectCard entry={p} locale={locale} />
+            ))}
+          </div>
+        </section>
+      )
+    }
+  </main>
+  <Footer t={t} profile={profile} />
+</Layout>

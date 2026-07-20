@@ -1,0 +1,15 @@
+company: "East Telecom"
+companyUrl: "https://etc.uz"
+logo: "../../../assets/companies/east-telecom.png"
+title: "Senior Flutter Developer"
+employmentType: "Part-time"
+location: "Remote, Tashkent"
+from: 2021-11-18
+to: 2025-09-01
+isCurrent: false
+responsibilities:
+  - "Architected and built the Neva e-commerce app: product catalog, shopping cart, secure payments, order tracking, and push notifications."
+  - "Built a comprehensive HRMS: employee directory, attendance & leave management, and reporting."
+  - "Delivered modular, testable Flutter code integrated with backend services."
+order: 3
+translated: original

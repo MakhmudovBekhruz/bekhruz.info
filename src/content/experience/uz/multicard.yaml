@@ -1,0 +1,16 @@
+company: "Multicard(multibank.uz)"
+companyUrl: "https://multibank.uz"
+logo: "../../../assets/companies/multicard.png"
+title: "Flutter Dasturchi"
+employmentType: "Yarim stavka"
+location: "Masofaviy, Toshkent"
+from: 2020-05-05
+to: 2021-07-31
+isCurrent: false
+responsibilities:
+  - "Flutter asosidagi xavfsiz mobil banking ilovasining asosiy funksiyalarini ishlab chiqdim."
+  - "Biometrik ro'yxatdan o'tish, hisob panellari, tranzaksiyalar tarixi va pul o'tkazish ekranlarini joriy qildim."
+  - "Qayta ishlatiladigan, testlanadigan UI vidjetlarini REST API bilan integratsiya qildim."
+  - "Unit va widget testlar orqali sifatni ta'minladim."
+order: 4
+translated: claude

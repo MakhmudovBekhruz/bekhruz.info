@@ -1,0 +1,29 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { ui, locales, localeLabels, localizePath } from '../i18n/ui';
+import LinkButton from '../components/LinkButton.astro';
+
+const t = ui.en;
+---
+
+<Layout locale="en" title={`${t.notFound.title} — Bekhruz Makhmudov`} description={t.notFound.body} path="/404/">
+  <main
+    id="main"
+    class="mx-auto flex min-h-dvh w-full max-w-5xl flex-col items-center justify-center px-5 py-24 text-center sm:px-8"
+  >
+    <p class="font-display text-7xl font-semibold tracking-tight text-night-line select-none" aria-hidden="true">404</p>
+    <h1 class="mt-6 font-display text-2xl font-semibold tracking-tight text-snow sm:text-3xl">
+      {t.notFound.title}
+    </h1>
+    <p class="mt-3 max-w-md leading-relaxed text-mist">{t.notFound.body}</p>
+    <div class="mt-9 flex flex-wrap justify-center gap-3">
+      {
+        locales.map((l) => (
+          <LinkButton href={localizePath(l, '/')} variant={l === 'en' ? 'primary' : 'secondary'}>
+            {l === 'en' ? t.notFound.home : localeLabels[l]}
+          </LinkButton>
+        ))
+      }
+    </div>
+  </main>
+</Layout>

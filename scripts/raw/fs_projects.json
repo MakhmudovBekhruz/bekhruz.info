@@ -1,0 +1,923 @@
+{
+  "documents": [
+    {
+      "name": "projects/persfolio-tob49/databases/(default)/documents/projects/3mCGo6AHw6jgNzTJoWKY",
+      "fields": {
+        "title": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "IZI Study"
+              },
+              "ru": {
+                "stringValue": "IZI Study"
+              },
+              "uz": {
+                "stringValue": "IZI Study"
+              }
+            }
+          }
+        },
+        "image": {
+          "stringValue": "https://firebasestorage.googleapis.com/v0/b/persfolio-tob49.firebasestorage.app/o/projects%2Ff3da705a-7416-4d8b-92f1-9dc739b4ab40?alt=media&token=6be4a10a-8187-4769-adf3-1bb435d67076"
+        },
+        "links": {
+          "mapValue": {
+            "fields": {
+              "playStore": {
+                "stringValue": "https://play.google.com/store/apps/details?id=uz.owl.rus_tili.rus_tili"
+              },
+              "appStore": {
+                "stringValue": "https://apps.apple.comapp/app/id1625591100"
+              },
+              "live": {
+                "stringValue": "https://izi-study.com"
+              },
+              "github": {
+                "nullValue": null
+              }
+            }
+          }
+        },
+        "description": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "IZI study — bu zamonaviy til o‘rganish ilovasi. Endi xorijiy tillarni oson, qulay va samarali tarzda o‘rganish mumkin.\n\nIZI study yordamida siz quyidagi tillarni o‘rganishingiz mumkin:\n\nrus tili\n\ningliz tili\n\nnemis tili\n\nfransuz tili\n\narab tili\n\n\nO‘qishni boshlash qiyin bo‘lishi mumkinligini bilamiz. Shuning uchun biz har bir foydalanuvchiga 3 ta bepul dars taqdim etamiz. Bu sizga kursni sinab ko‘rish, formatni baholash va IZI study bilan til o‘rganish naqadar oson va qiziqarli ekaniga ishonch hosil qilish imkonini beradi.\n\n🎯 Nega aynan IZI study?\n\nOddiy va tushunarli darslar — yangi so‘z va qoidalar tez va oson esda qoladi.\n\nQulay interfeys — barcha darslar, mashqlar va natijalar qo‘lingiz ostida.\n\nZamonaviy metodika — assotsiatsiyalar, kartochkalar va takrorlash usullari bilan bilim mustahkamlanadi.\n\nHar qanday daraja uchun — yangi boshlovchilar va davom ettiruvchilar uchun.\n\nIstalgan joyda o‘rganing — uyda, ishda yoki safarda. Telefoningizning o‘zi yetarli.\n\n\n📚 Siz nima olasiz:\n\nyangi so‘z boyligi;\n\noddiy misollar orqali grammatika tushunchasi;\n\no‘qish, yozish, tinglash va gapirish ko‘nikmalari;\n\nchet tilida ishonch bilan muloqot qilish tajribasi.\n\n\n🚀 Bizning yondashuvimiz\n\nBiz til — bu yangi imkoniyatlar kaliti, deb hisoblaymiz. IZI study bilan o‘qish quruq nazariya emas, balki jonli va qiziqarli sayohatdir.\n\n🎁 Bepul boshlang\n\nIlovani yuklab oling, 3 ta bepul dars oling, tilni tanlang va bugun o‘qishni boshlang!\n\nIZI study — yangi bilim va imkoniyatlarga oson yo‘l."
+              },
+              "ru": {
+                "stringValue": "IZI study — bu zamonaviy til o‘rganish ilovasi. Endi xorijiy tillarni oson, qulay va samarali tarzda o‘rganish mumkin.\n\nIZI study yordamida siz quyidagi tillarni o‘rganishingiz mumkin:\n\nrus tili\n\ningliz tili\n\nnemis tili\n\nfransuz tili\n\narab tili\n\n\nO‘qishni boshlash qiyin bo‘lishi mumkinligini bilamiz. Shuning uchun biz har bir foydalanuvchiga 3 ta bepul dars taqdim etamiz. Bu sizga kursni sinab ko‘rish, formatni baholash va IZI study bilan til o‘rganish naqadar oson va qiziqarli ekaniga ishonch hosil qilish imkonini beradi.\n\n🎯 Nega aynan IZI study?\n\nOddiy va tushunarli darslar — yangi so‘z va qoidalar tez va oson esda qoladi.\n\nQulay interfeys — barcha darslar, mashqlar va natijalar qo‘lingiz ostida.\n\nZamonaviy metodika — assotsiatsiyalar, kartochkalar va takrorlash usullari bilan bilim mustahkamlanadi.\n\nHar qanday daraja uchun — yangi boshlovchilar va davom ettiruvchilar uchun.\n\nIstalgan joyda o‘rganing — uyda, ishda yoki safarda. Telefoningizning o‘zi yetarli.\n\n\n📚 Siz nima olasiz:\n\nyangi so‘z boyligi;\n\noddiy misollar orqali grammatika tushunchasi;\n\no‘qish, yozish, tinglash va gapirish ko‘nikmalari;\n\nchet tilida ishonch bilan muloqot qilish tajribasi.\n\n\n🚀 Bizning yondashuvimiz\n\nBiz til — bu yangi imkoniyatlar kaliti, deb hisoblaymiz. IZI study bilan o‘qish quruq nazariya emas, balki jonli va qiziqarli sayohatdir.\n\n🎁 Bepul boshlang\n\nIlovani yuklab oling, 3 ta bepul dars oling, tilni tanlang va bugun o‘qishni boshlang!\n\nIZI study — yangi bilim va imkoniyatlarga oson yo‘l."
+              },
+              "uz": {
+                "stringValue": "IZI study — bu zamonaviy til o‘rganish ilovasi. Endi xorijiy tillarni oson, qulay va samarali tarzda o‘rganish mumkin.\n\nIZI study yordamida siz quyidagi tillarni o‘rganishingiz mumkin:\n\nrus tili\n\ningliz tili\n\nnemis tili\n\nfransuz tili\n\narab tili\n\n\nO‘qishni boshlash qiyin bo‘lishi mumkinligini bilamiz. Shuning uchun biz har bir foydalanuvchiga 3 ta bepul dars taqdim etamiz. Bu sizga kursni sinab ko‘rish, formatni baholash va IZI study bilan til o‘rganish naqadar oson va qiziqarli ekaniga ishonch hosil qilish imkonini beradi.\n\n🎯 Nega aynan IZI study?\n\nOddiy va tushunarli darslar — yangi so‘z va qoidalar tez va oson esda qoladi.\n\nQulay interfeys — barcha darslar, mashqlar va natijalar qo‘lingiz ostida.\n\nZamonaviy metodika — assotsiatsiyalar, kartochkalar va takrorlash usullari bilan bilim mustahkamlanadi.\n\nHar qanday daraja uchun — yangi boshlovchilar va davom ettiruvchilar uchun.\n\nIstalgan joyda o‘rganing — uyda, ishda yoki safarda. Telefoningizning o‘zi yetarli.\n\n\n📚 Siz nima olasiz:\n\nyangi so‘z boyligi;\n\noddiy misollar orqali grammatika tushunchasi;\n\no‘qish, yozish, tinglash va gapirish ko‘nikmalari;\n\nchet tilida ishonch bilan muloqot qilish tajribasi.\n\n\n🚀 Bizning yondashuvimiz\n\nBiz til — bu yangi imkoniyatlar kaliti, deb hisoblaymiz. IZI study bilan o‘qish quruq nazariya emas, balki jonli va qiziqarli sayohatdir.\n\n🎁 Bepul boshlang\n\nIlovani yuklab oling, 3 ta bepul dars oling, tilni tanlang va bugun o‘qishni boshlang!\n\nIZI study — yangi bilim va imkoniyatlarga oson yo‘l."
+              }
+            }
+          }
+        },
+        "stack": {
+          "arrayValue": {
+            "values": [
+              {
+                "stringValue": "Flutter"
+              },
+              {
+                "stringValue": "Dart"
+              }
+            ]
+          }
+        }
+      },
+      "createTime": "2025-06-29T15:16:14.893253Z",
+      "updateTime": "2025-09-27T16:34:17.026050Z"
+    },
+    {
+      "name": "projects/persfolio-tob49/databases/(default)/documents/projects/5MEhV0FeGH9xZfBgVPA3",
+      "fields": {
+        "links": {
+          "mapValue": {
+            "fields": {
+              "playStore": {
+                "stringValue": "https://play.google.com/store/apps/details?id=uz.eurosoft.quran_mobile"
+              },
+              "appStore": {
+                "stringValue": "https://apps.apple.com/us/app/quran-app/id6758812384"
+              },
+              "github": {
+                "nullValue": null
+              },
+              "live": {
+                "nullValue": null
+              }
+            }
+          }
+        },
+        "description": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "Learn the Qur’an Easily\n\nIn the app, you can read and listen to the Qur’an in different modes: word-by-word, with Tajweed rules, and with translation.\n\nChoose Reading Modes\n\nThere are several modes to practice reading in Arabic. Read word-by-word, with Tajweed and waqf rules, and improve your recitation.\n\nUnderstand with Translation\n\nView the verses in both languages together. You can read, listen, and repeat."
+              },
+              "ru": {
+                "stringValue": "Learn the Qur’an Easily\n\nIn the app, you can read and listen to the Qur’an in different modes: word-by-word, with Tajweed rules, and with translation.\n\nChoose Reading Modes\n\nThere are several modes to practice reading in Arabic. Read word-by-word, with Tajweed and waqf rules, and improve your recitation.\n\nUnderstand with Translation\n\nView the verses in both languages together. You can read, listen, and repeat."
+              },
+              "uz": {
+                "stringValue": "Learn the Qur’an Easily\n\nIn the app, you can read and listen to the Qur’an in different modes: word-by-word, with Tajweed rules, and with translation.\n\nChoose Reading Modes\n\nThere are several modes to practice reading in Arabic. Read word-by-word, with Tajweed and waqf rules, and improve your recitation.\n\nUnderstand with Translation\n\nView the verses in both languages together. You can read, listen, and repeat."
+              }
+            }
+          }
+        },
+        "stack": {
+          "arrayValue": {
+            "values": [
+              {
+                "stringValue": "Flutter"
+              },
+              {
+                "stringValue": "Drift"
+              },
+              {
+                "stringValue": "SQL"
+              }
+            ]
+          }
+        },
+        "title": {
+          "mapValue": {
+            "fields": {
+              "ru": {
+                "stringValue": "Qur'an App"
+              },
+              "uz": {
+                "stringValue": "Qur'an App"
+              },
+              "en": {
+                "stringValue": "Qur'an App"
+              }
+            }
+          }
+        },
+        "image": {
+          "stringValue": "https://firebasestorage.googleapis.com/v0/b/persfolio-tob49.firebasestorage.app/o/projects%2F6e1eb1fb-f1a0-45a5-ab92-16f878011b24?alt=media&token=fb022167-bfc5-4ea0-a125-4c564f973a40"
+        }
+      },
+      "createTime": "2026-03-23T04:45:10.015548Z",
+      "updateTime": "2026-03-23T04:45:10.015548Z"
+    },
+    {
+      "name": "projects/persfolio-tob49/databases/(default)/documents/projects/6K1qunkKmpOmbD8P3gjn",
+      "fields": {
+        "links": {
+          "mapValue": {
+            "fields": {
+              "playStore": {
+                "stringValue": "https://play.google.com/store/apps/details?id=com.jafton.spreadlee"
+              },
+              "appStore": {
+                "stringValue": "https://apps.apple.com/sa/app/spreadlee/id6737686867"
+              },
+              "github": {
+                "nullValue": null
+              },
+              "live": {
+                "nullValue": null
+              }
+            }
+          }
+        },
+        "description": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "Spreadlee is the first worldwide advertising application, where the user can promote products anywhere & anytime through several platforms instantly by the most well-known influencers and advertising companies."
+              },
+              "ru": {
+                "stringValue": "Spreadlee is the first worldwide advertising application, where the user can promote products anywhere & anytime through several platforms instantly by the most well-known influencers and advertising companies."
+              },
+              "uz": {
+                "stringValue": "Spreadlee is the first worldwide advertising application, where the user can promote products anywhere & anytime through several platforms instantly by the most well-known influencers and advertising companies."
+              }
+            }
+          }
+        },
+        "stack": {
+          "arrayValue": {
+            "values": [
+              {
+                "stringValue": "Flutter"
+              },
+              {
+                "stringValue": "Dart"
+              }
+            ]
+          }
+        },
+        "title": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "Spreadlee"
+              },
+              "uz": {
+                "stringValue": "Spreadlee"
+              },
+              "ru": {
+                "stringValue": "Spreadlee"
+              }
+            }
+          }
+        },
+        "image": {
+          "stringValue": "https://firebasestorage.googleapis.com/v0/b/persfolio-tob49.firebasestorage.app/o/projects%2Ffdadeddc-5275-42f7-86bb-fb2c7ae6834a?alt=media&token=da765b23-161c-44b1-b135-e2995b676e65"
+        }
+      },
+      "createTime": "2025-06-29T14:55:02.437548Z",
+      "updateTime": "2025-06-29T14:55:02.437548Z"
+    },
+    {
+      "name": "projects/persfolio-tob49/databases/(default)/documents/projects/6SWpacKb0kyeTo09MCrl",
+      "fields": {
+        "image": {
+          "stringValue": "https://firebasestorage.googleapis.com/v0/b/persfolio-tob49.firebasestorage.app/o/projects%2Fe4ab4677-1e3f-4831-8101-f5f58c4d82bb?alt=media&token=c8982894-f0f8-4cd0-a085-4475e4551ea9"
+        },
+        "title": {
+          "mapValue": {
+            "fields": {
+              "uz": {
+                "stringValue": "Maak - معـك"
+              },
+              "ru": {
+                "stringValue": "Maak - معـك"
+              },
+              "en": {
+                "stringValue": "Maak - معـك"
+              }
+            }
+          }
+        },
+        "stack": {
+          "arrayValue": {
+            "values": [
+              {
+                "stringValue": "Flutter"
+              },
+              {
+                "stringValue": "Dart"
+              }
+            ]
+          }
+        },
+        "links": {
+          "mapValue": {
+            "fields": {
+              "appStore": {
+                "stringValue": "https://apps.apple.com/app/id6479402258"
+              },
+              "live": {
+                "nullValue": null
+              },
+              "github": {
+                "nullValue": null
+              },
+              "playStore": {
+                "stringValue": "https://play.google.com/store/apps/details?id=com.maak.app"
+              }
+            }
+          }
+        },
+        "description": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "Maak, a comprehensive telemedicine app designed to prioritize your health and well-being. At its core, Maak focuses on patient care and mental health, ensuring you receive the support you need *as integrated care. Beyond this, Maak offers a range of services including family medicine consultations, psychiatrist and psychologist consultations , and prescription refills. With Maak, booking an appointment is effortless—whether you need an instant consultation or prefer to schedule one at your convenience, you can start your medical journey immediately. Experience seamless healthcare with Maak, where your health is always a priority."
+              },
+              "ru": {
+                "stringValue": "Maak, a comprehensive telemedicine app designed to prioritize your health and well-being. At its core, Maak focuses on patient care and mental health, ensuring you receive the support you need *as integrated care. Beyond this, Maak offers a range of services including family medicine consultations, psychiatrist and psychologist consultations , and prescription refills. With Maak, booking an appointment is effortless—whether you need an instant consultation or prefer to schedule one at your convenience, you can start your medical journey immediately. Experience seamless healthcare with Maak, where your health is always a priority."
+              },
+              "uz": {
+                "stringValue": "Maak, a comprehensive telemedicine app designed to prioritize your health and well-being. At its core, Maak focuses on patient care and mental health, ensuring you receive the support you need *as integrated care. Beyond this, Maak offers a range of services including family medicine consultations, psychiatrist and psychologist consultations , and prescription refills. With Maak, booking an appointment is effortless—whether you need an instant consultation or prefer to schedule one at your convenience, you can start your medical journey immediately. Experience seamless healthcare with Maak, where your health is always a priority."
+              }
+            }
+          }
+        }
+      },
+      "createTime": "2025-06-29T14:51:56.460975Z",
+      "updateTime": "2025-06-29T14:51:56.460975Z"
+    },
+    {
+      "name": "projects/persfolio-tob49/databases/(default)/documents/projects/GX9jO5XCipLj0hcjoNCX",
+      "fields": {
+        "title": {
+          "mapValue": {
+            "fields": {
+              "ru": {
+                "stringValue": "Simidan Mover"
+              },
+              "uz": {
+                "stringValue": "Simidan Mover"
+              },
+              "en": {
+                "stringValue": "Simidan Mover"
+              }
+            }
+          }
+        },
+        "image": {
+          "stringValue": "https://firebasestorage.googleapis.com/v0/b/persfolio-tob49.firebasestorage.app/o/projects%2F839b128c-5fe7-40e8-8e0b-0c467e9bd8b4?alt=media&token=c47cf72c-0e5f-466c-ae78-10f6d63186eb"
+        },
+        "description": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "Bid for Orders:\n\nBrowse and bid on available moving jobs posted by reputable moving companies. Secure more work by setting competitive bids that showcase your expertise.\n\nManage Your Profile:\n\nCreate a detailed professional profile to highlight your skills, experience, and availability. Update your information anytime to stay relevant and attractive to potential employers.\n\nOrder Management:\n\nKeep track of all your jobs in one place. View details, status, and updates for each order to ensure you’re always on top of your schedule.\n\nPayments:\n\nManage your earnings effortlessly. Track your payments, view transaction history, and get paid securely through the app.\n\nCalendar Integration:\n\nSync your work schedule with the app’s calendar feature. Never miss a job with reminders and scheduling tools that keep you organized."
+              },
+              "uz": {
+                "stringValue": "Bid for Orders:\n\nBrowse and bid on available moving jobs posted by reputable moving companies. Secure more work by setting competitive bids that showcase your expertise.\n\nManage Your Profile:\n\nCreate a detailed professional profile to highlight your skills, experience, and availability. Update your information anytime to stay relevant and attractive to potential employers.\n\nOrder Management:\n\nKeep track of all your jobs in one place. View details, status, and updates for each order to ensure you’re always on top of your schedule.\n\nPayments:\n\nManage your earnings effortlessly. Track your payments, view transaction history, and get paid securely through the app.\n\nCalendar Integration:\n\nSync your work schedule with the app’s calendar feature. Never miss a job with reminders and scheduling tools that keep you organized."
+              },
+              "ru": {
+                "stringValue": "Bid for Orders:\n\nBrowse and bid on available moving jobs posted by reputable moving companies. Secure more work by setting competitive bids that showcase your expertise.\n\nManage Your Profile:\n\nCreate a detailed professional profile to highlight your skills, experience, and availability. Update your information anytime to stay relevant and attractive to potential employers.\n\nOrder Management:\n\nKeep track of all your jobs in one place. View details, status, and updates for each order to ensure you’re always on top of your schedule.\n\nPayments:\n\nManage your earnings effortlessly. Track your payments, view transaction history, and get paid securely through the app.\n\nCalendar Integration:\n\nSync your work schedule with the app’s calendar feature. Never miss a job with reminders and scheduling tools that keep you organized."
+              }
+            }
+          }
+        },
+        "links": {
+          "mapValue": {
+            "fields": {
+              "appStore": {
+                "stringValue": "https://apps.apple.com/in/app/simidan-mover/id6504777521"
+              },
+              "github": {
+                "nullValue": null
+              },
+              "live": {
+                "nullValue": null
+              },
+              "playStore": {
+                "stringValue": "https://play.google.com/store/apps/details?id=com.simidan.mover"
+              }
+            }
+          }
+        },
+        "stack": {
+          "arrayValue": {
+            "values": [
+              {
+                "stringValue": "Flutter"
+              },
+              {
+                "stringValue": "Dart"
+              }
+            ]
+          }
+        }
+      },
+      "createTime": "2025-06-29T14:48:01.674169Z",
+      "updateTime": "2025-06-29T14:48:01.674169Z"
+    },
+    {
+      "name": "projects/persfolio-tob49/databases/(default)/documents/projects/RsxOJ64OWmybfmStZeF8",
+      "fields": {
+        "image": {
+          "stringValue": "https://firebasestorage.googleapis.com/v0/b/persfolio-tob49.firebasestorage.app/o/projects%2F7317181b-56bd-46b2-95c9-1550fb2e99fd?alt=media&token=f9829ce9-5158-4ad0-a748-746cdd9779f7"
+        },
+        "title": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "Staffly"
+              },
+              "ru": {
+                "stringValue": "Staffly"
+              },
+              "uz": {
+                "stringValue": "Staffly"
+              }
+            }
+          }
+        },
+        "stack": {
+          "arrayValue": {
+            "values": [
+              {
+                "stringValue": "Flutter"
+              },
+              {
+                "stringValue": "Dart"
+              }
+            ]
+          }
+        },
+        "links": {
+          "mapValue": {
+            "fields": {
+              "playStore": {
+                "stringValue": "https://play.google.com/store/apps/details?id=uz.etc.hrms.mobile"
+              },
+              "appStore": {
+                "stringValue": "https://apps.apple.com/uz/app/staffly-et/id6738784749"
+              },
+              "github": {
+                "nullValue": null
+              },
+              "live": {
+                "nullValue": null
+              }
+            }
+          }
+        },
+        "description": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "Staffly\nA cloud-powered Human Resource Management mobile app for any organization—no purchase required. Register your company, invite your team, and start managing HR tasks in minutes."
+              },
+              "uz": {
+                "stringValue": "Staffly\nA cloud-powered Human Resource Management mobile app for any organization—no purchase required. Register your company, invite your team, and start managing HR tasks in minutes."
+              },
+              "ru": {
+                "stringValue": "Staffly\nA cloud-powered Human Resource Management mobile app for any organization—no purchase required. Register your company, invite your team, and start managing HR tasks in minutes."
+              }
+            }
+          }
+        }
+      },
+      "createTime": "2025-06-29T14:45:43.872514Z",
+      "updateTime": "2025-06-29T14:45:43.872514Z"
+    },
+    {
+      "name": "projects/persfolio-tob49/databases/(default)/documents/projects/U3f4uWddPYyh23KGXur9",
+      "fields": {
+        "links": {
+          "mapValue": {
+            "fields": {
+              "playStore": {
+                "stringValue": "https://play.google.com/store/apps/details?id=com.xeelafitness.xeelafitness"
+              },
+              "appStore": {
+                "stringValue": "https://apps.apple.com/us/app/xeela-fitness/id6468574624"
+              },
+              "live": {
+                "nullValue": null
+              },
+              "github": {
+                "nullValue": null
+              }
+            }
+          }
+        },
+        "description": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "#1 Transformation app where we take your goals and personalize a program for you to achieve your dream physique\n\nWith the Xeela App you will-\n\n• Know exactly how much to eat each day.\n\nA diet that is determined based on your dietary preferences, age, weight and fitness goal.\n\nYou will never have to guess what is good or bad.\n\n• Calories and macros are calculated for you and made easy to understand.\n\n•Know exactly what workouts to do.\n\nCustomized workouts specifically for your goals\n\n•Know exactly what to eat.\n\nWe provide all of the recipes and instructions for you\n\n•Experience an app made for changing your body\n\n•Track your progress\n\nHelp track and visualize your rep & weight progress."
+              },
+              "ru": {
+                "stringValue": "#1 Transformation app where we take your goals and personalize a program for you to achieve your dream physique\n\nWith the Xeela App you will-\n\n• Know exactly how much to eat each day.\n\nA diet that is determined based on your dietary preferences, age, weight and fitness goal.\n\nYou will never have to guess what is good or bad.\n\n• Calories and macros are calculated for you and made easy to understand.\n\n•Know exactly what workouts to do.\n\nCustomized workouts specifically for your goals\n\n•Know exactly what to eat.\n\nWe provide all of the recipes and instructions for you\n\n•Experience an app made for changing your body\n\n•Track your progress\n\nHelp track and visualize your rep & weight progress."
+              },
+              "uz": {
+                "stringValue": "#1 Transformation app where we take your goals and personalize a program for you to achieve your dream physique\n\nWith the Xeela App you will-\n\n• Know exactly how much to eat each day.\n\nA diet that is determined based on your dietary preferences, age, weight and fitness goal.\n\nYou will never have to guess what is good or bad.\n\n• Calories and macros are calculated for you and made easy to understand.\n\n•Know exactly what workouts to do.\n\nCustomized workouts specifically for your goals\n\n•Know exactly what to eat.\n\nWe provide all of the recipes and instructions for you\n\n•Experience an app made for changing your body\n\n•Track your progress\n\nHelp track and visualize your rep & weight progress."
+              }
+            }
+          }
+        },
+        "stack": {
+          "arrayValue": {
+            "values": [
+              {
+                "stringValue": "Flutter"
+              },
+              {
+                "stringValue": "Dart"
+              }
+            ]
+          }
+        },
+        "title": {
+          "mapValue": {
+            "fields": {
+              "ru": {
+                "stringValue": "Xeela: The Transformation App"
+              },
+              "uz": {
+                "stringValue": "Xeela: The Transformation App"
+              },
+              "en": {
+                "stringValue": "Xeela: The Transformation App"
+              }
+            }
+          }
+        },
+        "image": {
+          "stringValue": "https://firebasestorage.googleapis.com/v0/b/persfolio-tob49.firebasestorage.app/o/projects%2Fc9c2d9ad-5255-4769-8b2d-8d848e9ca614?alt=media&token=957ef3c5-5d98-4d1e-98a5-a8a6601fe01b"
+        }
+      },
+      "createTime": "2025-06-29T15:11:32.485604Z",
+      "updateTime": "2025-06-29T15:11:32.485604Z"
+    },
+    {
+      "name": "projects/persfolio-tob49/databases/(default)/documents/projects/YSP0WrJqthqtzLwtmHgO",
+      "fields": {
+        "stack": {
+          "arrayValue": {
+            "values": [
+              {
+                "stringValue": "Flutter"
+              },
+              {
+                "stringValue": "Dart"
+              }
+            ]
+          }
+        },
+        "description": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "Neva is a marketplace for the whole family where you will find quality products for all occasions. A wide range of products from A to Z"
+              },
+              "ru": {
+                "stringValue": "Neva is a marketplace for the whole family where you will find quality products for all occasions. A wide range of products from A to Z"
+              },
+              "uz": {
+                "stringValue": "Neva is a marketplace for the whole family where you will find quality products for all occasions. A wide range of products from A to Z"
+              }
+            }
+          }
+        },
+        "links": {
+          "mapValue": {
+            "fields": {
+              "appStore": {
+                "stringValue": "https://apps.apple.com/uz/app/neva/id1591381827"
+              },
+              "live": {
+                "nullValue": null
+              },
+              "github": {
+                "nullValue": null
+              },
+              "playStore": {
+                "stringValue": "https://play.google.com/store/apps/details?id=uz.neva.kidya"
+              }
+            }
+          }
+        },
+        "image": {
+          "stringValue": "https://firebasestorage.googleapis.com/v0/b/persfolio-tob49.firebasestorage.app/o/projects%2F04a74f0b-b97b-43c4-8a0b-0eb4d41832e5?alt=media&token=1ed1b32b-cde2-4929-a6fa-f5f7869618c5"
+        },
+        "title": {
+          "mapValue": {
+            "fields": {
+              "uz": {
+                "stringValue": "Neva"
+              },
+              "ru": {
+                "stringValue": "Neva"
+              },
+              "en": {
+                "stringValue": "Neva"
+              }
+            }
+          }
+        }
+      },
+      "createTime": "2025-06-29T15:04:24.669862Z",
+      "updateTime": "2025-06-29T15:04:24.669862Z"
+    },
+    {
+      "name": "projects/persfolio-tob49/databases/(default)/documents/projects/cWhvNYB2pb4sNr58laLL",
+      "fields": {
+        "image": {
+          "stringValue": "https://firebasestorage.googleapis.com/v0/b/persfolio-tob49.firebasestorage.app/o/projects%2F36df11fc-7199-4ae4-a355-2e8cacc8584f?alt=media&token=087fe019-5372-4430-86ed-5f5487b3d0b0"
+        },
+        "title": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "Shipox Driver App"
+              },
+              "uz": {
+                "stringValue": "Shipox Driver App"
+              },
+              "ru": {
+                "stringValue": "Shipox Driver App"
+              }
+            }
+          }
+        },
+        "stack": {
+          "arrayValue": {
+            "values": [
+              {
+                "stringValue": "Flutter"
+              },
+              {
+                "stringValue": "Dart"
+              }
+            ]
+          }
+        },
+        "links": {
+          "mapValue": {
+            "fields": {
+              "appStore": {
+                "stringValue": "https://apps.apple.com/app/id1577923524"
+              },
+              "live": {
+                "stringValue": "https://shipox.com"
+              },
+              "github": {
+                "nullValue": null
+              },
+              "playStore": {
+                "stringValue": "https://play.google.com/store/apps/details?id=com.shipox.rider&pcampaignid=web_share"
+              }
+            }
+          }
+        },
+        "description": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "Chart the course for success with our Driver App, your virtual co-pilot for pinpoint navigation and on-the-spot delivery confirmation. Delight customers with progress updates as you turn every corner, right up to their doorstep."
+              },
+              "ru": {
+                "stringValue": "Chart the course for success with our Driver App, your virtual co-pilot for pinpoint navigation and on-the-spot delivery confirmation. Delight customers with progress updates as you turn every corner, right up to their doorstep."
+              },
+              "uz": {
+                "stringValue": "Chart the course for success with our Driver App, your virtual co-pilot for pinpoint navigation and on-the-spot delivery confirmation. Delight customers with progress updates as you turn every corner, right up to their doorstep."
+              }
+            }
+          }
+        }
+      },
+      "createTime": "2025-06-29T14:39:24.907823Z",
+      "updateTime": "2025-06-29T14:39:24.907823Z"
+    },
+    {
+      "name": "projects/persfolio-tob49/databases/(default)/documents/projects/oPQyJdTUDxACL4I19eHu",
+      "fields": {
+        "links": {
+          "mapValue": {
+            "fields": {
+              "appStore": {
+                "stringValue": "https://apps.apple.com/uz/app/aries-chat-meet-on-a-map/id6740236052"
+              },
+              "live": {
+                "stringValue": "http://ariesapp.co/"
+              },
+              "github": {
+                "nullValue": null
+              },
+              "playStore": {
+                "stringValue": "https://play.google.com/store/apps/details?id=com.aries.chatroom"
+              }
+            }
+          }
+        },
+        "description": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "A new kind of social app that brings real-time conversation to the world map.\nARIES is an anonymous chat platform where anyone can join live discussions about real places, trending topics, or random thoughts—right from a global map. Unlike other static platforms, ARIES lets you talk to people now, not later."
+              },
+              "ru": {
+                "stringValue": "A new kind of social app that brings real-time conversation to the world map.\nARIES is an anonymous chat platform where anyone can join live discussions about real places, trending topics, or random thoughts—right from a global map. Unlike other static platforms, ARIES lets you talk to people now, not later."
+              },
+              "uz": {
+                "stringValue": "A new kind of social app that brings real-time conversation to the world map.\nARIES is an anonymous chat platform where anyone can join live discussions about real places, trending topics, or random thoughts—right from a global map. Unlike other static platforms, ARIES lets you talk to people now, not later."
+              }
+            }
+          }
+        },
+        "stack": {
+          "arrayValue": {
+            "values": [
+              {
+                "stringValue": "Flutter"
+              },
+              {
+                "stringValue": "Dart"
+              },
+              {
+                "stringValue": "Firebase"
+              }
+            ]
+          }
+        },
+        "title": {
+          "mapValue": {
+            "fields": {
+              "uz": {
+                "stringValue": "ARIES – Chat & Meet on a Map"
+              },
+              "ru": {
+                "stringValue": "ARIES – Chat & Meet on a Map"
+              },
+              "en": {
+                "stringValue": "ARIES – Chat & Meet on a Map"
+              }
+            }
+          }
+        },
+        "image": {
+          "stringValue": "https://firebasestorage.googleapis.com/v0/b/persfolio-tob49.firebasestorage.app/o/projects%2F47f696af-dffc-4dfb-a7fc-8d3a3f6a8320?alt=media&token=bade3292-f92e-4734-bfd5-87de19f96ca0"
+        }
+      },
+      "createTime": "2025-09-08T00:43:20.533590Z",
+      "updateTime": "2025-09-08T00:43:20.533590Z"
+    },
+    {
+      "name": "projects/persfolio-tob49/databases/(default)/documents/projects/x6uAUmtwFxdVzLrGldcp",
+      "fields": {
+        "image": {
+          "stringValue": "https://firebasestorage.googleapis.com/v0/b/persfolio-tob49.firebasestorage.app/o/projects%2F5fd64aae-5a12-4ac8-b7f8-059b0bde7e36?alt=media&token=6199ddf8-43e1-4cbe-94e9-39b15568e334"
+        },
+        "title": {
+          "mapValue": {
+            "fields": {
+              "uz": {
+                "stringValue": "Multicard"
+              },
+              "ru": {
+                "stringValue": "Multicard"
+              },
+              "en": {
+                "stringValue": "Multicard"
+              }
+            }
+          }
+        },
+        "stack": {
+          "arrayValue": {
+            "values": [
+              {
+                "stringValue": "Flutter"
+              },
+              {
+                "stringValue": "Dart"
+              }
+            ]
+          }
+        },
+        "description": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "Мобильное приложение, банковская карта и сервисы для физических лиц:\n— Кобейжинговая карта Multicard Black;\n— Виртуальная карта Humo;\n— Мобильное приложение для управления картами, оплат и переводов;\n— Интернет-эквайринг;\n— другие сервисы для физических лиц. "
+              },
+              "uz": {
+                "stringValue": "Мобильное приложение, банковская карта и сервисы для физических лиц:\n— Кобейжинговая карта Multicard Black;\n— Виртуальная карта Humo;\n— Мобильное приложение для управления картами, оплат и переводов;\n— Интернет-эквайринг;\n— другие сервисы для физических лиц. "
+              },
+              "ru": {
+                "stringValue": "Мобильное приложение, банковская карта и сервисы для физических лиц:\n— Кобейжинговая карта Multicard Black;\n— Виртуальная карта Humo;\n— Мобильное приложение для управления картами, оплат и переводов;\n— Интернет-эквайринг;\n— другие сервисы для физических лиц. "
+              }
+            }
+          }
+        },
+        "links": {
+          "mapValue": {
+            "fields": {
+              "appStore": {
+                "stringValue": "https://apps.apple.com/uz/app/multicard/id1530741420"
+              },
+              "github": {
+                "nullValue": null
+              },
+              "live": {
+                "stringValue": "https://multibank.uz"
+              },
+              "playStore": {
+                "stringValue": "https://play.google.com/store/apps/details?id=uz.owl.multicard"
+              }
+            }
+          }
+        }
+      },
+      "createTime": "2025-06-29T14:34:05.526712Z",
+      "updateTime": "2025-06-29T14:34:05.526712Z"
+    },
+    {
+      "name": "projects/persfolio-tob49/databases/(default)/documents/projects/xfluVB12UMSUZiVExBhH",
+      "fields": {
+        "links": {
+          "mapValue": {
+            "fields": {
+              "appStore": {
+                "stringValue": "https://apps.apple.com/app/whenwefirst/id6670217475"
+              },
+              "live": {
+                "nullValue": null
+              },
+              "github": {
+                "nullValue": null
+              },
+              "playStore": {
+                "stringValue": "https://play.google.com/store/apps/details?id=com.whenwefirst.whenwefirst"
+              }
+            }
+          }
+        },
+        "description": {
+          "mapValue": {
+            "fields": {
+              "ru": {
+                "stringValue": "When We First: Look Beyond the Likes!\nTired of swiping endlessly with no real connection? Welcome to When We First, the first dating app that brings real human touch back into the world of online dating. Whether you’re busy with work or just ready to find something meaningful, we’ve created a revolutionary experience to help you meet genuine people with the help of real matchmakers"
+              },
+              "uz": {
+                "stringValue": "When We First: Look Beyond the Likes!\nTired of swiping endlessly with no real connection? Welcome to When We First, the first dating app that brings real human touch back into the world of online dating. Whether you’re busy with work or just ready to find something meaningful, we’ve created a revolutionary experience to help you meet genuine people with the help of real matchmakers"
+              },
+              "en": {
+                "stringValue": "When We First: Look Beyond the Likes!\nTired of swiping endlessly with no real connection? Welcome to When We First, the first dating app that brings real human touch back into the world of online dating. Whether you’re busy with work or just ready to find something meaningful, we’ve created a revolutionary experience to help you meet genuine people with the help of real matchmakers"
+              }
+            }
+          }
+        },
+        "stack": {
+          "arrayValue": {
+            "values": [
+              {
+                "stringValue": "Flutter"
+              },
+              {
+                "stringValue": "Dart"
+              }
+            ]
+          }
+        },
+        "title": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "When We First"
+              },
+              "uz": {
+                "stringValue": "When We First"
+              },
+              "ru": {
+                "stringValue": "When We First"
+              }
+            }
+          }
+        },
+        "image": {
+          "stringValue": "https://firebasestorage.googleapis.com/v0/b/persfolio-tob49.firebasestorage.app/o/projects%2F3683a035-8d2b-4e21-a36b-9cd3306a2f7d?alt=media&token=12a31ec3-e41d-49ee-b928-0d7eee002c53"
+        }
+      },
+      "createTime": "2025-06-29T15:20:07.323681Z",
+      "updateTime": "2025-06-29T15:20:07.323681Z"
+    },
+    {
+      "name": "projects/persfolio-tob49/databases/(default)/documents/projects/zQHsHMJJzqerjmDYRWFP",
+      "fields": {
+        "title": {
+          "mapValue": {
+            "fields": {
+              "ru": {
+                "stringValue": "Hisbot.com"
+              },
+              "uz": {
+                "stringValue": "Hisbot.com"
+              },
+              "en": {
+                "stringValue": "Hisobot.com"
+              }
+            }
+          }
+        },
+        "image": {
+          "stringValue": "https://firebasestorage.googleapis.com/v0/b/persfolio-tob49.firebasestorage.app/o/projects%2Fedb81ac2-69ed-4bfe-9f69-dfdfd0dd1fe0?alt=media&token=aa78e70d-991c-40ab-bb99-ccd3d96b1e5b"
+        },
+        "description": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "Hisobot.com: Ваше комплексное решение для управления бизнесом\n\nИзмените способ управления своим бизнесом с помощью официального мобильного приложения Hisobot.com. Разработанное для оптимизации вашего рабочего процесса и улучшения командной работы, Hisobot.com предоставляет все мощные функции нашей платформы прямо у вас под рукой. Будь вы в офисе или в пути, оставайтесь на связи и контролируйте свои бизнес-операции.\n\nКлючевые особенности:\n\nРасширенное управление задачами:\n\nПолучите четкое представление обо всех ваших проектах и задачах. С нашей интуитивно понятной панелью управления вы можете просматривать, управлять и отслеживать задачи в гибком табличном формате. Легко отслеживайте прогресс, устанавливайте приоритеты и обеспечивайте соблюдение сроков.\n\nИнтегрированная календарная система:\n\nОрганизуйте свое расписание и просматривайте задачи по дням, неделям или месяцам с помощью нашей мощной календарной системы. Эффективно планируйте свою рабочую нагрузку и никогда больше не пропускайте важные сроки.\n\nСтруктура компании и управление сотрудниками:\n\nОрганизуйте структуру вашей компании, создавая отделы и управляя профилями сотрудников. Следите за своей командой, распределяйте роли и оптимизируйте коммуникацию во всей вашей организации.\n\nБесшовная интеграция с Telegram:\n\nИспользуйте возможности нашего Telegram-бота для регистрации новых сотрудников и управления задачами прямо из приложения Telegram. Получайте мгновенные уведомления и будьте в курсе событий на ходу.\n\nУлучшенная командная работа:\n\nСоздайте среду для совместной работы с помощью инструментов, предназначенных для командной работы. Делитесь файлами, общайтесь с членами команды и работайте вместе над проектами для достижения ваших бизнес-целей."
+              },
+              "ru": {
+                "stringValue": "Hisobot.com: Ваше комплексное решение для управления бизнесом\n\nИзмените способ управления своим бизнесом с помощью официального мобильного приложения Hisobot.com. Разработанное для оптимизации вашего рабочего процесса и улучшения командной работы, Hisobot.com предоставляет все мощные функции нашей платформы прямо у вас под рукой. Будь вы в офисе или в пути, оставайтесь на связи и контролируйте свои бизнес-операции.\n\nКлючевые особенности:\n\nРасширенное управление задачами:\n\nПолучите четкое представление обо всех ваших проектах и задачах. С нашей интуитивно понятной панелью управления вы можете просматривать, управлять и отслеживать задачи в гибком табличном формате. Легко отслеживайте прогресс, устанавливайте приоритеты и обеспечивайте соблюдение сроков.\n\nИнтегрированная календарная система:\n\nОрганизуйте свое расписание и просматривайте задачи по дням, неделям или месяцам с помощью нашей мощной календарной системы. Эффективно планируйте свою рабочую нагрузку и никогда больше не пропускайте важные сроки.\n\nСтруктура компании и управление сотрудниками:\n\nОрганизуйте структуру вашей компании, создавая отделы и управляя профилями сотрудников. Следите за своей командой, распределяйте роли и оптимизируйте коммуникацию во всей вашей организации.\n\nБесшовная интеграция с Telegram:\n\nИспользуйте возможности нашего Telegram-бота для регистрации новых сотрудников и управления задачами прямо из приложения Telegram. Получайте мгновенные уведомления и будьте в курсе событий на ходу.\n\nУлучшенная командная работа:\n\nСоздайте среду для совместной работы с помощью инструментов, предназначенных для командной работы. Делитесь файлами, общайтесь с членами команды и работайте вместе над проектами для достижения ваших бизнес-целей."
+              },
+              "uz": {
+                "stringValue": "Hisobot.com: Ваше комплексное решение для управления бизнесом\n\nИзмените способ управления своим бизнесом с помощью официального мобильного приложения Hisobot.com. Разработанное для оптимизации вашего рабочего процесса и улучшения командной работы, Hisobot.com предоставляет все мощные функции нашей платформы прямо у вас под рукой. Будь вы в офисе или в пути, оставайтесь на связи и контролируйте свои бизнес-операции.\n\nКлючевые особенности:\n\nРасширенное управление задачами:\n\nПолучите четкое представление обо всех ваших проектах и задачах. С нашей интуитивно понятной панелью управления вы можете просматривать, управлять и отслеживать задачи в гибком табличном формате. Легко отслеживайте прогресс, устанавливайте приоритеты и обеспечивайте соблюдение сроков.\n\nИнтегрированная календарная система:\n\nОрганизуйте свое расписание и просматривайте задачи по дням, неделям или месяцам с помощью нашей мощной календарной системы. Эффективно планируйте свою рабочую нагрузку и никогда больше не пропускайте важные сроки.\n\nСтруктура компании и управление сотрудниками:\n\nОрганизуйте структуру вашей компании, создавая отделы и управляя профилями сотрудников. Следите за своей командой, распределяйте роли и оптимизируйте коммуникацию во всей вашей организации.\n\nБесшовная интеграция с Telegram:\n\nИспользуйте возможности нашего Telegram-бота для регистрации новых сотрудников и управления задачами прямо из приложения Telegram. Получайте мгновенные уведомления и будьте в курсе событий на ходу.\n\nУлучшенная командная работа:\n\nСоздайте среду для совместной работы с помощью инструментов, предназначенных для командной работы. Делитесь файлами, общайтесь с членами команды и работайте вместе над проектами для достижения ваших бизнес-целей."
+              }
+            }
+          }
+        },
+        "links": {
+          "mapValue": {
+            "fields": {
+              "appStore": {
+                "stringValue": "https://apps.apple.com/uz/app/hisobot-com/id6745081208"
+              },
+              "github": {
+                "nullValue": null
+              },
+              "live": {
+                "stringValue": "https://hisobot.com/"
+              },
+              "playStore": {
+                "stringValue": "https://play.google.com/store/apps/details?id=com.hisobot.app.hisobot_app"
+              }
+            }
+          }
+        },
+        "stack": {
+          "arrayValue": {
+            "values": [
+              {
+                "stringValue": "Flutter"
+              },
+              {
+                "stringValue": "Dart"
+              },
+              {
+                "stringValue": "WebSockets"
+              }
+            ]
+          }
+        }
+      },
+      "createTime": "2025-07-07T20:39:26.113167Z",
+      "updateTime": "2025-09-04T07:10:24.488670Z"
+    }
+  ]
+}

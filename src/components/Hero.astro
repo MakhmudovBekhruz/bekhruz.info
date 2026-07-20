@@ -1,0 +1,83 @@
+---
+import { Image } from 'astro:assets';
+import type { Locale, Dict } from '../i18n/ui';
+import Icon from './Icon.astro';
+import LinkButton from './LinkButton.astro';
+import portrait from '../assets/profile/bekhruz.jpg';
+
+interface Props {
+  locale: Locale;
+  t: Dict;
+  profile: {
+    name: string;
+    role: string;
+    location: string;
+    about: string;
+    email: string;
+    cvUrl: string;
+    socials: { github: string; linkedin: string; telegram: string };
+  };
+}
+const { t, profile } = Astro.props;
+
+const socials = [
+  { href: profile.socials.github, label: 'GitHub', icon: 'github' },
+  { href: profile.socials.linkedin, label: 'LinkedIn', icon: 'linkedin' },
+  { href: profile.socials.telegram, label: 'Telegram', icon: 'telegram' },
+  { href: `mailto:${profile.email}`, label: profile.email, icon: 'mail' },
+] as const;
+---
+
+<section class="pt-14 pb-16 sm:pt-20 sm:pb-24">
+  <div
+    class="grid items-center gap-10 animate-rise motion-reduce:animate-none md:grid-cols-[minmax(0,1fr)_auto] md:gap-14"
+  >
+    <div>
+      <p class="text-sm font-medium tracking-[0.14em] text-accent uppercase">{profile.role}</p>
+      <h1 class="mt-3 font-display text-4xl font-semibold tracking-tight text-snow sm:text-5xl">
+        {profile.name}
+      </h1>
+      <p class="mt-3.5 flex items-center gap-1.5 text-sm text-haze">
+        <Icon name="pin" class="h-4 w-4" />
+        {profile.location}
+      </p>
+      <p class="mt-6 max-w-[62ch] leading-relaxed text-mist">{profile.about}</p>
+
+      <div class="mt-8 flex flex-wrap gap-3">
+        <LinkButton href={profile.cvUrl} variant="primary" download>
+          <Icon name="download" class="h-4 w-4" />
+          {t.hero.downloadCv}
+        </LinkButton>
+        <LinkButton href="#contact">{t.hero.contactMe}</LinkButton>
+      </div>
+
+      <ul class="mt-9 flex items-center gap-3" role="list">
+        {
+          socials.map((s) => (
+            <li>
+              <a
+                href={s.href}
+                aria-label={s.label}
+                target={s.icon === 'mail' ? undefined : '_blank'}
+                rel={s.icon === 'mail' ? undefined : 'noopener noreferrer'}
+                class="flex h-11 w-11 items-center justify-center rounded-lg border border-night-line text-mist transition-colors hover:border-accent-dim hover:text-snow focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+              >
+                <Icon name={s.icon} class="h-4.5 w-4.5" />
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+
+    <Image
+      src={portrait}
+      alt={t.hero.photoAlt}
+      widths={[288, 432, 576]}
+      sizes="(min-width: 768px) 288px, 224px"
+      class="w-56 rounded-2xl border border-night-line md:w-72"
+      loading="eager"
+      fetchpriority="high"
+    />
+  </div>
+</section>

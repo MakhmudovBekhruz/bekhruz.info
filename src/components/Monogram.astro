@@ -1,0 +1,17 @@
+---
+/** Neutral letter tile used when a company logo or portrait is missing. */
+interface Props {
+  text: string;
+  class?: string;
+}
+const { text, class: cls = 'h-12 w-12 rounded-lg text-lg' } = Astro.props;
+const letter = (text.trim().charAt(0) || '•').toUpperCase();
+---
+
+<span
+  class:list={[
+    'flex shrink-0 items-center justify-center border border-night-line bg-night-raised font-display font-medium text-haze select-none',
+    cls,
+  ]}
+  aria-hidden="true">{letter}</span
+>

@@ -1,0 +1,17 @@
+company: "Jafton.com"
+companyUrl: "https://jafton.com"
+logo: "../../../assets/companies/jafton.webp"
+title: "Senior Flutter dasturchi"
+employmentType: "To'liq stavka"
+location: "Masofaviy, Toshkent"
+from: 2022-04-18
+to: 2025-01-20
+isCurrent: false
+responsibilities:
+  - "Mobil ilovalarga ixtisoslashgan autsorsing kompaniyasida turli mijozlar uchun kengaytiriladigan va qo'llab-quvvatlash oson bo'lgan krossplatforma ilovalarini loyihaladim."
+  - "Qayta ishlatiladigan UI komponentlarini loyihalab, joriy qildim."
+  - "RESTful API va uchinchi tomon SDK'larini integratsiya qildim."
+  - "Junior dasturchilarga mentorlik qildim."
+  - "Unit/widget testlar va sinchkov code review orqali kod sifatini ta'minladim."
+order: 2
+translated: claude

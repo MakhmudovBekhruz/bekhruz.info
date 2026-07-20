@@ -1,0 +1,55 @@
+---
+import { Image } from 'astro:assets';
+import type { CollectionEntry } from 'astro:content';
+import { localizePath, type Locale } from '../i18n/ui';
+import { slugOf } from '../lib/collections';
+import Chip from './Chip.astro';
+
+interface Props {
+  entry: CollectionEntry<'projects'>;
+  locale: Locale;
+  eager?: boolean;
+}
+const { entry, locale, eager = false } = Astro.props;
+const { title, tagline, stack, image } = entry.data;
+const href = localizePath(locale, `/projects/${slugOf(entry.id)}/`);
+const shown = stack.slice(0, 3);
+const more = stack.length - shown.length;
+---
+
+<article class="group h-full">
+  <a
+    href={href}
+    class="flex h-full flex-col overflow-hidden rounded-xl border border-night-line bg-night-raised transition-colors hover:border-accent-dim focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+  >
+    {
+      image ? (
+        <Image
+          src={image}
+          alt=""
+          widths={[400, 640, 800]}
+          sizes="(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 92vw"
+          class="aspect-[16/10] w-full border-b border-night-line object-cover object-top"
+          loading={eager ? 'eager' : 'lazy'}
+        />
+      ) : (
+        <div
+          class="flex aspect-[16/10] w-full items-center justify-center border-b border-night-line bg-night"
+          aria-hidden="true"
+        >
+          <span class="font-display text-5xl font-semibold text-night-line select-none">{title.charAt(0)}</span>
+        </div>
+      )
+    }
+    <div class="flex flex-1 flex-col p-5">
+      <h3 class="font-display text-lg font-medium tracking-tight text-snow transition-colors group-hover:text-accent-strong">
+        {title}
+      </h3>
+      <p class="mt-1.5 line-clamp-2 text-sm leading-relaxed text-mist">{tagline}</p>
+      <div class="mt-auto flex flex-wrap items-center gap-1.5 pt-4">
+        {shown.map((s) => <Chip size="sm">{s}</Chip>)}
+        {more > 0 && <span class="text-xs text-haze">+{more}</span>}
+      </div>
+    </div>
+  </a>
+</article>

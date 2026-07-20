@@ -1,0 +1,16 @@
+company: "Multicard(multibank.uz)"
+companyUrl: "https://multibank.uz"
+logo: "../../../assets/companies/multicard.png"
+title: "Flutter Разработчик"
+employmentType: "Частичная занятость"
+location: "Удалённо, Ташкент"
+from: 2020-05-05
+to: 2021-07-31
+isCurrent: false
+responsibilities:
+  - "Разрабатывал основные функции безопасного мобильного банковского приложения на Flutter."
+  - "Внедрял биометрическую регистрацию, панели управления счётом, просмотр истории транзакций и экраны перевода средств."
+  - "Интегрировал повторно используемые тестируемые UI-виджеты с REST API."
+  - "Обеспечивал качество посредством модульных и виджет-тестов."
+order: 4
+translated: human

@@ -1,0 +1,120 @@
+---
+import { locales, localeLabels, localizePath, ui, type Locale } from '../i18n/ui';
+import Icon from './Icon.astro';
+
+interface Props {
+  locale: Locale;
+  /** Locale-independent path of the current page, e.g. '/' or '/projects/'. */
+  path: string;
+  isHome?: boolean;
+}
+const { locale, path, isHome = false } = Astro.props;
+const t = ui[locale];
+
+/* On the home page anchors scroll in place; elsewhere they navigate home first. */
+const base = isHome ? '' : localizePath(locale, '/');
+const links = [
+  { href: `${base}#experience`, label: t.nav.experience },
+  { href: `${base}#projects`, label: t.nav.projects },
+  { href: `${base}#testimonials`, label: t.nav.testimonials },
+  { href: `${base}#contact`, label: t.nav.contact },
+];
+
+const skipLabel = { en: 'Skip to content', ru: 'Перейти к содержимому', uz: "Kontentga o'tish" }[locale];
+const menuLabel = { en: 'Menu', ru: 'Меню', uz: 'Menyu' }[locale];
+---
+
+<a
+  href="#main"
+  class="sr-only focus-visible:not-sr-only focus-visible:fixed focus-visible:top-3 focus-visible:left-3 focus-visible:z-50 focus-visible:rounded-lg focus-visible:bg-accent focus-visible:px-4 focus-visible:py-2 focus-visible:text-sm focus-visible:font-medium focus-visible:text-night"
+  >{skipLabel}</a
+>
+
+<header class="sticky top-0 z-40 border-b border-night-line bg-night/85 backdrop-blur-sm">
+  <nav
+    class="mx-auto flex h-14 w-full max-w-5xl items-center justify-between gap-3 px-5 sm:px-8"
+    aria-label={menuLabel}
+  >
+    <a
+      href={localizePath(locale, '/')}
+      class="rounded font-display text-lg font-semibold tracking-tight text-snow focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
+      aria-label="Bekhruz Makhmudov"
+    >
+      BM<span class="text-accent">.</span>
+    </a>
+
+    <div class="hidden items-center gap-7 md:flex">
+      {
+        links.map((link) => (
+          <a
+            href={link.href}
+            class="rounded text-sm text-mist transition-colors hover:text-snow focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
+          >
+            {link.label}
+          </a>
+        ))
+      }
+    </div>
+
+    <div class="flex items-center gap-2.5">
+      <div class="flex items-center rounded-lg border border-night-line p-0.5">
+        {
+          locales.map((l) => (
+            <a
+              href={localizePath(l, path)}
+              hreflang={l}
+              aria-label={localeLabels[l]}
+              aria-current={l === locale ? 'true' : undefined}
+              class:list={[
+                'rounded-md px-2.5 py-1.5 text-xs font-medium uppercase transition-colors focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-accent',
+                l === locale ? 'bg-night-raised text-snow' : 'text-haze hover:text-mist',
+              ]}
+            >
+              {l}
+            </a>
+          ))
+        }
+      </div>
+
+      <details class="relative md:hidden" data-nav-menu>
+        <summary
+          class="flex h-9 w-9 cursor-pointer list-none items-center justify-center rounded-lg border border-night-line text-mist transition-colors hover:text-snow focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent [&::-webkit-details-marker]:hidden"
+          aria-label={menuLabel}
+        >
+          <Icon name="menu" class="h-4.5 w-4.5" />
+        </summary>
+        <div
+          class="absolute top-11 right-0 z-50 w-52 rounded-xl border border-night-line bg-night-raised p-1.5 shadow-xl shadow-night/60"
+        >
+          {
+            links.map((link) => (
+              <a
+                href={link.href}
+                class="block rounded-lg px-3.5 py-2.5 text-sm text-mist transition-colors hover:bg-night hover:text-snow focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-accent"
+              >
+                {link.label}
+              </a>
+            ))
+          }
+        </div>
+      </details>
+    </div>
+  </nav>
+</header>
+
+<script>
+  // Close the mobile menu after choosing a link or clicking outside it.
+  for (const menu of document.querySelectorAll<HTMLDetailsElement>('details[data-nav-menu]')) {
+    menu.addEventListener('click', (e) => {
+      if (e.target instanceof Element && e.target.closest('a')) menu.removeAttribute('open');
+    });
+    document.addEventListener('click', (e) => {
+      if (menu.open && e.target instanceof Node && !menu.contains(e.target)) {
+        menu.removeAttribute('open');
+      }
+    });
+    menu.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') menu.removeAttribute('open');
+    });
+  }
+</script>

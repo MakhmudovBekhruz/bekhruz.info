@@ -1,0 +1,15 @@
+company: "East Telecom"
+companyUrl: "https://etc.uz"
+logo: "../../../assets/companies/east-telecom.png"
+title: "Senior Flutter dasturchi"
+employmentType: "Yarim stavka"
+location: "Masofaviy, Toshkent"
+from: 2021-11-18
+to: 2025-09-01
+isCurrent: false
+responsibilities:
+  - "Neva e-commerce ilovasini loyihalab, ishlab chiqdim: mahsulot katalogi, savat, xavfsiz to'lovlar, buyurtmani kuzatish va push-bildirishnomalar."
+  - "Keng qamrovli HRMS tizimini yaratdim: xodimlar ro'yxati, davomat va ta'til hisobi, hisobotlar."
+  - "Modulli, testlanadigan Flutter kodini yozib, backend xizmatlari bilan integratsiya qildim."
+order: 3
+translated: claude

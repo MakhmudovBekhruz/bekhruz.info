@@ -1,0 +1,49 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { ui, type Locale } from '../i18n/ui';
+import { getByLocale, getProfile } from '../lib/collections';
+import { personJsonLd, websiteJsonLd } from '../lib/seo';
+import Nav from './Nav.astro';
+import Hero from './Hero.astro';
+import Skills from './Skills.astro';
+import ExperienceSection from './ExperienceSection.astro';
+import ProjectsSection from './ProjectsSection.astro';
+import EducationSection from './EducationSection.astro';
+import TestimonialsSection from './TestimonialsSection.astro';
+import ContactSection from './ContactSection.astro';
+import Footer from './Footer.astro';
+
+interface Props {
+  locale: Locale;
+}
+const { locale } = Astro.props;
+const t = ui[locale];
+
+const [profile, experience, projects, education, testimonials] = await Promise.all([
+  getProfile(locale),
+  getByLocale('experience', locale),
+  getByLocale('projects', locale),
+  getByLocale('education', locale),
+  getByLocale('testimonials', locale),
+]);
+---
+
+<Layout
+  locale={locale}
+  title={t.meta.title}
+  description={t.meta.description}
+  path="/"
+  jsonLd={[personJsonLd(locale, profile), websiteJsonLd(locale)]}
+>
+  <Nav locale={locale} path="/" isHome />
+  <main id="main" class="mx-auto w-full max-w-5xl px-5 sm:px-8">
+    <Hero locale={locale} t={t} profile={profile} />
+    <Skills t={t} />
+    <ExperienceSection locale={locale} t={t} entries={experience} />
+    <ProjectsSection locale={locale} t={t} entries={projects} />
+    <EducationSection t={t} entries={education} />
+    <TestimonialsSection t={t} entries={testimonials} />
+    <ContactSection t={t} profile={profile} />
+  </main>
+  <Footer t={t} profile={profile} />
+</Layout>

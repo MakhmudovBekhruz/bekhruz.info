@@ -1,0 +1,75 @@
+---
+import '../styles/global.css';
+import '@fontsource-variable/inter';
+import '@fontsource-variable/space-grotesk';
+import { locales, localizePath, type Locale } from '../i18n/ui';
+
+interface Props {
+  locale: Locale;
+  title: string;
+  description: string;
+  /** Locale-independent path of the current page, e.g. '/' or '/projects/aries/'. */
+  path: string;
+  ogImage?: string;
+  jsonLd?: Record<string, unknown>[];
+}
+
+const { locale, title, description, path, ogImage, jsonLd = [] } = Astro.props;
+const site = Astro.site ?? new URL('https://bekhruz.info');
+const canonical = new URL(localizePath(locale, path), site);
+const ogImageUrl = new URL(ogImage ?? '/og.png', site);
+---
+
+<html lang={locale} class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {locales.map((l) => <link rel="alternate" hreflang={l} href={new URL(localizePath(l, path), site)} />)}
+    <link rel="alternate" hreflang="x-default" href={new URL(localizePath('en', path), site)} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="theme-color" content="#16181f" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Bekhruz Makhmudov" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImageUrl} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content={locale === 'en' ? 'en_US' : locale === 'ru' ? 'ru_RU' : 'uz_UZ'} />
+    <meta name="twitter:card" content="summary_large_image" />
+    {jsonLd.map((schema) => <script type="application/ld+json" set:html={JSON.stringify(schema)} />)}
+  </head>
+  <body class="min-h-dvh overflow-x-clip bg-night text-snow">
+    <slot />
+    <script>
+      if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        // Take ownership of reveal animations; until this class exists the CSS
+        // keeps everything visible (no-JS / script-failure safety).
+        document.documentElement.classList.add('reveal-ready');
+        let pending = Array.from(document.querySelectorAll('.reveal'));
+        const check = () => {
+          const limit = window.innerHeight * 0.95;
+          pending = pending.filter((el) => {
+            if (el.getBoundingClientRect().top < limit) {
+              el.classList.add('is-visible');
+              return false;
+            }
+            return true;
+          });
+          if (!pending.length) {
+            removeEventListener('scroll', check);
+            removeEventListener('resize', check);
+          }
+        };
+        addEventListener('scroll', check, { passive: true });
+        addEventListener('resize', check, { passive: true });
+        check();
+      }
+    </script>
+  </body>
+</html>

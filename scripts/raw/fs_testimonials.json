@@ -1,0 +1,284 @@
+{
+  "documents": [
+    {
+      "name": "projects/persfolio-tob49/databases/(default)/documents/testimonials/ORv9oxVYf5e31kfcyCLz",
+      "fields": {
+        "name": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": " Abdullo Magrupov"
+              },
+              "ru": {
+                "stringValue": " Abdullo Magrupov"
+              },
+              "uz": {
+                "stringValue": " Abdullo Magrupov"
+              }
+            }
+          }
+        },
+        "company": {
+          "mapValue": {
+            "fields": {
+              "ru": {
+                "stringValue": "zip24.com"
+              },
+              "uz": {
+                "stringValue": "zip24.com"
+              },
+              "en": {
+                "stringValue": "zip24.com"
+              }
+            }
+          }
+        },
+        "image": {
+          "stringValue": "https://firebasestorage.googleapis.com/v0/b/persfolio-tob49.firebasestorage.app/o/testimonials%2F7d921ebb-f120-468b-bc95-deb7078916bd?alt=media&token=bc8c9235-829b-4e08-b32a-3fe810bc3f9a"
+        },
+        "role": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "Flutter Developer"
+              },
+              "ru": {
+                "stringValue": "Flutter Developer"
+              },
+              "uz": {
+                "stringValue": "Flutter Developer"
+              }
+            }
+          }
+        },
+        "quote": {
+          "mapValue": {
+            "fields": {
+              "uz": {
+                "stringValue": "At the time I joined the zip24 company because of strong team and Bekhruz was the guy who made good impression because of his solid technical knowledge and skills.Throughout my career at zip24, I noticed that Bekhruz was one of the few guys who was very important and leading the project. \nIt was really enjoying to work with Bekhruz as he never stopped learning and sharing new things. He also has extraordinary algorithm skills which is always good to have for a software developer.\nIt can be said that he is one of the few full stack developers who has a deep knowledge on all the stacks he work. In Bekhruz's case I can say that his Java back-end and Flutter skills are equally excellent.\nI can easily say that Bekhruz being a part of any company is a real benefit for both company and the team."
+              },
+              "ru": {
+                "stringValue": "At the time I joined the zip24 company because of strong team and Bekhruz was the guy who made good impression because of his solid technical knowledge and skills.Throughout my career at zip24, I noticed that Bekhruz was one of the few guys who was very important and leading the project. \nIt was really enjoying to work with Bekhruz as he never stopped learning and sharing new things. He also has extraordinary algorithm skills which is always good to have for a software developer.\nIt can be said that he is one of the few full stack developers who has a deep knowledge on all the stacks he work. In Bekhruz's case I can say that his Java back-end and Flutter skills are equally excellent.\nI can easily say that Bekhruz being a part of any company is a real benefit for both company and the team."
+              },
+              "en": {
+                "stringValue": "At the time I joined the zip24 company because of strong team and Bekhruz was the guy who made good impression because of his solid technical knowledge and skills.Throughout my career at zip24, I noticed that Bekhruz was one of the few guys who was very important and leading the project. \nIt was really enjoying to work with Bekhruz as he never stopped learning and sharing new things. He also has extraordinary algorithm skills which is always good to have for a software developer.\nIt can be said that he is one of the few full stack developers who has a deep knowledge on all the stacks he work. In Bekhruz's case I can say that his Java back-end and Flutter skills are equally excellent.\nI can easily say that Bekhruz being a part of any company is a real benefit for both company and the team."
+              }
+            }
+          }
+        }
+      },
+      "createTime": "2025-06-29T13:56:17.838949Z",
+      "updateTime": "2025-06-29T14:05:02.788042Z"
+    },
+    {
+      "name": "projects/persfolio-tob49/databases/(default)/documents/testimonials/VBseYgKw6UgxTU4x59zD",
+      "fields": {
+        "quote": {
+          "mapValue": {
+            "fields": {
+              "uz": {
+                "stringValue": "I consider Bekhruz Makhmudov to be an exceptional talent in his field. As a senior programmer, he possesses deep expertise in mobile application development. His contributions to East Telecom have been invaluable, particularly in the development of the HRMS program, where his efforts have played a significant role in its success.\n\nIt is a pleasure to collaborate with him, and I am confident that together we will achieve remarkable projects. Having such highly skilled professionals on my team is both a privilege and a source of great pride."
+              },
+              "ru": {
+                "stringValue": "I consider Bekhruz Makhmudov to be an exceptional talent in his field. As a senior programmer, he possesses deep expertise in mobile application development. His contributions to East Telecom have been invaluable, particularly in the development of the HRMS program, where his efforts have played a significant role in its success.\n\nIt is a pleasure to collaborate with him, and I am confident that together we will achieve remarkable projects. Having such highly skilled professionals on my team is both a privilege and a source of great pride."
+              },
+              "en": {
+                "stringValue": "I consider Bekhruz Makhmudov to be an exceptional talent in his field. As a senior programmer, he possesses deep expertise in mobile application development. His contributions to East Telecom have been invaluable, particularly in the development of the HRMS program, where his efforts have played a significant role in its success.\n\nIt is a pleasure to collaborate with him, and I am confident that together we will achieve remarkable projects. Having such highly skilled professionals on my team is both a privilege and a source of great pride."
+              }
+            }
+          }
+        },
+        "role": {
+          "mapValue": {
+            "fields": {
+              "uz": {
+                "stringValue": "Head of Software Division and Lead Engineer"
+              },
+              "ru": {
+                "stringValue": "Head of Software Division and Lead Engineer"
+              },
+              "en": {
+                "stringValue": "Head of Software Division and Lead Engineer"
+              }
+            }
+          }
+        },
+        "image": {
+          "stringValue": "https://firebasestorage.googleapis.com/v0/b/persfolio-tob49.firebasestorage.app/o/testimonials%2F70c489b1-0e28-464d-9a05-b70b02f4951b?alt=media&token=56c94997-297d-4594-8b83-7c0d7b02eb6b"
+        },
+        "company": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "East Telecom"
+              },
+              "uz": {
+                "stringValue": "East Telecom"
+              },
+              "ru": {
+                "stringValue": "East Telecom"
+              }
+            }
+          }
+        },
+        "name": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "Akrom Nasyrov"
+              },
+              "uz": {
+                "stringValue": "Akrom Nasyrov"
+              },
+              "ru": {
+                "stringValue": "Akrom Nasyrov"
+              }
+            }
+          }
+        }
+      },
+      "createTime": "2025-06-29T13:43:58.592132Z",
+      "updateTime": "2025-06-29T14:05:14.474615Z"
+    },
+    {
+      "name": "projects/persfolio-tob49/databases/(default)/documents/testimonials/W6aslgtrzmYKAYtYjGPk",
+      "fields": {
+        "quote": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "Bekhruz is a very strong and professional developer with his attentive attitude towards work. We worked at the same company, he managed the team of mobile developers, great skills on providing technical interviews for candidates, moreover he did code review for junior-middle flutter developers, participated on the grading of a new phase of projects and made a decision on choosing the right stack and technology. Great knowledge of working on creating a good architecture for huge project. A real hard-working person."
+              },
+              "uz": {
+                "stringValue": "Bekhruz is a very strong and professional developer with his attentive attitude towards work. We worked at the same company, he managed the team of mobile developers, great skills on providing technical interviews for candidates, moreover he did code review for junior-middle flutter developers, participated on the grading of a new phase of projects and made a decision on choosing the right stack and technology. Great knowledge of working on creating a good architecture for huge project. A real hard-working person."
+              },
+              "ru": {
+                "stringValue": "Bekhruz is a very strong and professional developer with his attentive attitude towards work. We worked at the same company, he managed the team of mobile developers, great skills on providing technical interviews for candidates, moreover he did code review for junior-middle flutter developers, participated on the grading of a new phase of projects and made a decision on choosing the right stack and technology. Great knowledge of working on creating a good architecture for huge project. A real hard-working person."
+              }
+            }
+          }
+        },
+        "image": {
+          "stringValue": "https://firebasestorage.googleapis.com/v0/b/persfolio-tob49.firebasestorage.app/o/testimonials%2F9d402d05-5176-4a28-8980-34a6591b9134?alt=media&token=0806a9c3-7892-4c7f-a4d3-9c803f46f7bf"
+        },
+        "role": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "Talent Acquisition | People Operations manager | HR BP | 📌HR in Tech📌🔝 IT HR Community"
+              },
+              "uz": {
+                "stringValue": "Talent Acquisition | People Operations manager | HR BP | 📌HR in Tech📌🔝 IT HR Community"
+              },
+              "ru": {
+                "stringValue": "Talent Acquisition | People Operations manager | HR BP | 📌HR in Tech📌🔝 IT HR Community"
+              }
+            }
+          }
+        },
+        "company": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "Jafton.com"
+              },
+              "ru": {
+                "stringValue": "Jafton.com"
+              },
+              "uz": {
+                "stringValue": "Jafton.com"
+              }
+            }
+          }
+        },
+        "name": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "Sarvar Salyamov"
+              },
+              "uz": {
+                "stringValue": "Sarvar Salyamov"
+              },
+              "ru": {
+                "stringValue": "Sarvar Salyamov"
+              }
+            }
+          }
+        }
+      },
+      "createTime": "2025-06-29T13:54:52.696924Z",
+      "updateTime": "2025-06-29T14:05:32.631964Z"
+    },
+    {
+      "name": "projects/persfolio-tob49/databases/(default)/documents/testimonials/aFH7CEh7Kt7zdLKNbJmJ",
+      "fields": {
+        "company": {
+          "mapValue": {
+            "fields": {
+              "ru": {
+                "stringValue": "shipox.com"
+              },
+              "uz": {
+                "stringValue": "shipox.com"
+              },
+              "en": {
+                "stringValue": "shipox.com"
+              }
+            }
+          }
+        },
+        "name": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "Islombek Toshev"
+              },
+              "ru": {
+                "stringValue": "Islombek Toshev"
+              },
+              "uz": {
+                "stringValue": "Islombek Toshev"
+              }
+            }
+          }
+        },
+        "quote": {
+          "mapValue": {
+            "fields": {
+              "en": {
+                "stringValue": "Bekhruz is a very talented developer on Flutter And Java Backend I've worked 2 years with Bekhruz and He learns new knowledge quickly and can put it into practice very well, can get along well with people, and help the community. The difficulty does not frighten him, on the contrary, he is interested, he is very interested in solving problems, As I am a colleague of Bekhruz and I strongly recommend \nto others to work with him"
+              },
+              "uz": {
+                "stringValue": "Bekhruz is a very talented developer on Flutter And Java Backend I've worked 2 years with Bekhruz and He learns new knowledge quickly and can put it into practice very well, can get along well with people, and help the community. The difficulty does not frighten him, on the contrary, he is interested, he is very interested in solving problems, As I am a colleague of Bekhruz and I strongly recommend \nto others to work with him"
+              },
+              "ru": {
+                "stringValue": "Bekhruz is a very talented developer on Flutter And Java Backend I've worked 2 years with Bekhruz and He learns new knowledge quickly and can put it into practice very well, can get along well with people, and help the community. The difficulty does not frighten him, on the contrary, he is interested, he is very interested in solving problems, As I am a colleague of Bekhruz and I strongly recommend \nto others to work with him"
+              }
+            }
+          }
+        },
+        "image": {
+          "stringValue": "https://firebasestorage.googleapis.com/v0/b/persfolio-tob49.firebasestorage.app/o/testimonials%2F4039b0a2-364b-412a-aafd-75e8909fb62b?alt=media&token=500a7490-e825-4007-93e3-2d5a0dbaa2ad"
+        },
+        "role": {
+          "mapValue": {
+            "fields": {
+              "ru": {
+                "stringValue": "Java Developer"
+              },
+              "uz": {
+                "stringValue": "Java Developer"
+              },
+              "en": {
+                "stringValue": "Java Developer"
+              }
+            }
+          }
+        }
+      },
+      "createTime": "2025-06-29T13:58:59.624598Z",
+      "updateTime": "2025-06-29T14:05:23.606797Z"
+    }
+  ]
+}

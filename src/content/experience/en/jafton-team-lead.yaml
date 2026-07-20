@@ -1,0 +1,17 @@
+company: "Jafton.com"
+companyUrl: "https://jafton.com"
+logo: "../../../assets/companies/jafton.webp"
+title: "Mobile Team Lead"
+employmentType: "Full-time"
+location: "Remote, Tashkent"
+from: 2025-01-20
+to: null
+isCurrent: true
+responsibilities:
+  - "Overseeing a team of Flutter developers to deliver high-quality cross-platform applications."
+  - "Defining mobile architecture and best practices."
+  - "Coordinating with product owners, designers, and QA to align on requirements and timelines."
+  - "Mentoring and upskilling team members."
+  - "Driving CI/CD adoption, code reviews, and performance optimizations to ensure timely, maintainable, and scalable app releases."
+order: 1
+translated: original

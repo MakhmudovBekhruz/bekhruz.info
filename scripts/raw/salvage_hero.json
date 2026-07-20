@@ -1,0 +1,23 @@
+{
+  "name": "Bekhruz Makhmudov",
+  "role": { "en": "Senior Flutter Developer", "ru": "Senior Flutter Developer", "uz": "Senior Flutter Developer" },
+  "location": { "en": "Tashkent, Uzbekistan", "ru": "Ташкент, Узбекистан", "uz": "Toshkent, O'zbekiston" },
+  "about": {
+    "en": "Passionate and results-driven Flutter & Java Backend Developer with over 7 years of experience designing and delivering scalable cross-platform mobile and server-side applications. Expert in Flutter, Firebase, Supabase and RevenueCat integrations, with strong Java (Spring Boot & PostgreSQL) backend skills and hands-on iOS development using Swift. Currently leading a development team at an outsourcing firm—optimizing workflows, accelerating delivery timelines, and leveraging AI tools to boost efficiency. Committed to crafting high-performance solutions that elevate user experience.",
+    "ru": "Увлечённый и ориентированный на результат Flutter- и Java-бэкенд-разработчик с более чем 6-летним опытом проектирования и разработки масштабируемых кроссплатформенных мобильных и серверных приложений. Эксперт во Flutter, Firebase, Supabase и интеграциях RevenueCat, обладающий глубокими знаниями бэкенда на Java (Spring Boot и PostgreSQL) и практическим опытом iOS-разработки на Swift. В настоящее время возглавляю команду разработчиков в аутсорсинговой компании — оптимизирую рабочие процессы, ускоряю сроки поставки и использую AI-инструменты для повышения эффективности. Стремлюсь создавать высокопроизводительные решения, улучшающие пользовательский опыт.",
+    "uz": "UNTRANSLATED_ON_OLD_SITE__translate_from_en"
+  },
+  "note_years_inconsistency": "EN says 'over 7 years', RU/UZ say 'over 6' — normalize to 7+ (career started Aug 2019 per experience; user CV says 7). Flag in TRANSLATIONS-REVIEW.md.",
+  "skills": ["Bloc", "Dart", "Firebase", "Flutter", "Git", "Java", "Kotlin", "Spring", "SQL", "Swift"],
+  "cvUrl": "https://firebasestorage.googleapis.com/v0/b/persfolio-tob49.firebasestorage.app/o/hero%2Fcv.pdf?alt=media&token=1681d0b7-23ac-4a12-b766-559445b48ef3",
+  "profilePhotoUrl": "https://firebasestorage.googleapis.com/v0/b/persfolio-tob49.firebasestorage.app/o/hero%2Fprofile-photo?alt=media&token=c9f9f995-d963-467d-9a27-15c6d2127000",
+  "socials": {
+    "linkedin": "https://www.linkedin.com/in/bekhruz-makhmudov-99a7bb1b0/",
+    "github": "https://github.com/MakhmudovBekhruz",
+    "telegram": "https://t.me/+998997025670",
+    "telegram_note": "old site had broken relative link bekhruz.info/t.me/+998997025670 — fixed to t.me"
+  },
+  "email": "makhmudovbekhruzish@gmail.com",
+  "phone": "+998 99 702 56 70",
+  "ui_strings_uz_observed": { "downloadCv": "Rezyumeni yuklab olish", "skills": "Texnik ko'nikmalar", "education": "Ta'lim", "experience": "Ish tajribasi" }
+}

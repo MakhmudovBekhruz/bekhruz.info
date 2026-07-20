@@ -1,0 +1,17 @@
+company: "zip24.com(shipox.com)"
+companyUrl: "https://shipox.com"
+logo: "../../../assets/companies/shipox.png"
+title: "Java/Flutter dasturchi"
+employmentType: "To'liq stavka"
+location: "Ofis, Toshkent"
+from: 2019-08-30
+to: 2022-04-18
+isCurrent: false
+responsibilities:
+  - "Yetkazib berishni boshqarish platformasi Shipox'da backend va Flutter dasturchi sifatida ishladim: buyurtmalarni qayta ishlash, haydovchi tayinlash va yetkazib berishni kuzatish uchun RESTful API'lar loyihaladim."
+  - "Dispetcherlar va haydovchilar uchun Flutter interfeyslarini yaratdim."
+  - "Buyurtma yaratish jarayonlarini optimallashtirdim."
+  - "Kengaytirilgan qidiruv uchun Solr'ni integratsiya qildim."
+  - "Ma'lumotlarni o'zgartirish va ko'chirish uchun PostgreSQL skriptlarini yozdim; barchasi keng qamrovli unit va widget testlar bilan mustahkamlandi."
+order: 5
+translated: claude
