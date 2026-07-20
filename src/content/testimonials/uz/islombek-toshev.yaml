@@ -3,5 +3,5 @@ role: "Java dasturchi"
 company: "shipox.com"
 quote: "Bekhruz — Flutter va Java backend bo'yicha juda iste'dodli dasturchi. Men u bilan ikki yil ishlaganman: u yangi bilimlarni tez o'zlashtiradi va ularni amalda juda yaxshi qo'llay oladi, odamlar bilan yaxshi chiqisha oladi va jamoaga yordam beradi. Qiyinchiliklar uni cho'chitmaydi, aksincha qiziqtiradi — u murakkab masalalarni yechishga juda ishtiyoqmand. Bekhruzning hamkasbi sifatida boshqalarga u bilan ishlashni qat'iy tavsiya qilaman."
 image: "../../../assets/testimonials/islombek-toshev.jpg"
-order: 4
+order: 3
 translated: claude
